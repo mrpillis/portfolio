@@ -2,7 +2,7 @@
 layout: post
 title:  "Week 2: 3D Scanning Workflows"
 date:   2023-11-01 22:21:59 +00:00
-image: /images/9.jpg
+image: tn/images/9.jpg
 categories: research
 author: "D Pillis"
 ---
