@@ -2,7 +2,7 @@
 layout: post
 title:  "Week 5. 3D Hardware"
 date:   2023-11-01 22:21:59 +00:00
-image: /images/7.jpg
+image: images/7.jpg
 categories: research
 author: "D Pillis"
 ---
