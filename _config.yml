@@ -45,6 +45,7 @@ plugins:
 
 # Excluded from build
 exclude:
+  - vendor
   - Gemfile
   - Gemfile.lock
   - LICENSE
