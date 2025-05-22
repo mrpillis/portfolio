@@ -12,6 +12,8 @@ On October 31st, I manufactured six HoloKits using the laser cutter to support a
 
 https://github.com/mrpillis/dpillis-htmaa/blob/master/_site/tn/images/Holokit.jpg
 
+<img src="tn/images/Holokit.jpg" alt="drawing" width="200"/>
+
 <blockquote>
   <p>
   This research explores a new approach to tracking hands—or any articulated model—by using an augmented rigid body simulation. It frames 3D object tracking as a linear complementarity problem, offering a well-defined mathematical solution.
