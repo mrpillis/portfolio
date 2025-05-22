@@ -10,6 +10,8 @@ author: "D Pillis"
 On October 31st, I manufactured six HoloKits using the laser cutter to support a tutorial on mixed reality. The goal was to give students the ability to create their own holographic display viewers.  
 <img src="/tn/images/holokit.jpg" alt="Holokit prototype" width="200"/>
 
+https://github.com/mrpillis/dpillis-htmaa/blob/master/_site/tn/images/Holokit.jpg
+
 <blockquote>
   <p>
   This research explores a new approach to tracking hands—or any articulated model—by using an augmented rigid body simulation. It frames 3D object tracking as a linear complementarity problem, offering a well-defined mathematical solution.
