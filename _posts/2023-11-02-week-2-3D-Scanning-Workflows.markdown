@@ -7,18 +7,4 @@ categories: research
 author: "D Pillis"
 ---
 
-On October 24th, I met with John to review 3D scanning and 3D printing workflows.  
-<img src="/tn/images/5.jpg" alt="3D scanning discussion" width="200"/>
-
-We compared three key approaches to 3D reconstruction:
-
-- **Photogrammetry**
-- **Neural Radiance Fields (NeRFs)**
-- **3D Gaussian Splatting**  
-<img src="/tn/images/artex.jpg" alt="Artec Leo scanner" width="200"/>
-
-<blockquote>
-  <p>
-  We discussed the tradeoffs between traditional photogrammetry, which relies on many still images and reconstruction via point clouds, and newer machine-learning-based methods like NeRFs and Gaussian splats, which are better at handling view-dependent lighting and fine surface detail. While photogrammetry is reliable and well-supported in existing pipelines, NeRFs and Gaussian splats offer faster capture-to-render workflows and are more suitable for immersive and interactive applications.
-  </p>
-</blockquote>
+<blockquote> <p> <strong>Please Take Me With You</strong> We distributed 100 miniature "time capsule" boxes throughout the MIT Media Lab, inviting community members to fill them with mementos from their labs. These artifacts were later collected, photographed, and exhibited—fostering a sense of connection and presence through shared objects and collective memory. </p> </blockquote> <blockquote> <p> <strong>Media Lab Memory Project</strong> A digital "miniature museum" created using Gaussian splatting to reconstruct the MIT Media Lab in 3D. This interactive environment invited participants to explore the lab as a memory space, blending digital capture techniques with nostalgia to create a spatially rich, immersive memory archive. </p> </blockquote> <blockquote> <p> <strong>Tangible Media Lab Digital Twin</strong> We developed a digital twin of the Tangible Media Lab space, enabling interactive exploration and large-scale simulations. This project emphasized embodied presence and spatial memory, allowing participants to navigate the lab’s architecture in a virtual environment. </p> </blockquote> <blockquote> <p> <strong>Deloitte Greenhouse Workshop</strong> A hands-on workshop where participants built 3D models of their childhood homes using clay, markers, and found materials. These models were scanned into 3D, enabling participants to "walk through" their personal spaces in VR using projection mapping and Varjo XR headsets. </p> </blockquote> <blockquote> <p> <strong>Ancestral Simulations</strong> A collaborative motion capture project developed with Georine Pierre, inspired by Black diaspora folklore and ritual dance. The project visualized ancestral storytelling through embodied movement, exploring how these practices can be archived and experienced in immersive digital spaces. </p> </blockquote> <blockquote> <p> <strong>AmbientPhoneBooth</strong> An interactive audio installation that transformed a phone booth into an on-demand spatial audio experience. The system captured auditory memories and recreated spatialized soundscapes with delayed feedback, evoking nostalgia and a sense of temporal presence. </p> </blockquote> <blockquote> <p> <strong>Personal Virtual Simulations</strong> A speculative design exploration using virtual design techniques to reimagine personal memory archives. Collaborations with Masanori Nagashima, Phillip Beesley, and IDEO Cambridge produced prototypes that blend personal stories with experimental design strategies to rethink lifelogging and presence. </p> </blockquote>
