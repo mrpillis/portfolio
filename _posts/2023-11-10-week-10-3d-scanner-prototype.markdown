@@ -2,7 +2,7 @@
 layout: post
 title:  "Week 10: 3D Scanner Prototype"
 date:   2023-11-01 22:21:59 +00:00
-image: /images/1.jpg
+image: /dpillis-htmaa/images/1.jpg
 categories: research
 author: "D Pillis"
 ---
