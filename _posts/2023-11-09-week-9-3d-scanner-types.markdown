@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Week 9. 3D Scanner Types"
+title:  "AI Theatre: Interactive Conversational Interfaces with Virtual Agents Can Increase Confidence and Self-Efficacy in Devising Solutions for Interpersonal Conflict Scenarios"
 date:   2023-11-01 22:21:59 +00:00
 image: /images/2.jpg
 categories: research
-author: "D Pillis"
+author: "Daniel Pillis*, Pattie Pataranutaporn*, Pattie Maes, Misha Sra (2024)"
 ---
 
 I experimented with three different approaches to scanning this week. Using the Artec Leo, the 3D sense, and the iPhone Lidar. Each of them produces a different quality scan. Some of these scans can be seen below. <img src="tn/images/tmg-scans.png" alt="drawing" width="200"/> <img src="tn/images/room-combusted.png" alt="drawing" width="200"/> <img src="tn/images/tmg-scans.png" alt="drawing" width="200"/> 
