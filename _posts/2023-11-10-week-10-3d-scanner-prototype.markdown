@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "Perceive More by Seeing Less: Vision Augmentation Systems"
+title:  ""
 date:   2023-11-01 22:21:59 +00:00
 image: /dpillis-htmaa/images/1.jpg
 categories: research
 author: "D. Pillis"
 ---
+**Perceive More by Seeing Less: Vision Augmentation Systems**  
 **D. Pillis, Cayden Pierce, Char Stiles, Pawan Sinha, Jan Skerswetat, Seth Riskin, Ken Zolot**  
 *MIT, USA — MIT Media Lab / MIT BCS / MIT Museum / MIT Innovation Initiative*
 
