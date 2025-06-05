@@ -1,13 +1,15 @@
 ---
 layout: post
-title: "Week 3: Contemporary Techniques"
+title: "AmbientPhoneBooth"
 date: 2023-11-01 22:21:59 +00:00
 image: /images/8.jpg
 categories: research
-author: "D Pillis"
+author: "D. Pillis, Ziare Sherman, Hiroshi Ishii"
 ---
 
-On October 25th, I met with Quentin to explore workflows for designing a custom 3D scanner. We envisioned a system akin to a **portable light stage** or **compact panoptic studio**, specifically for scanning small objects. The idea is to use **20–30 Raspberry Pi cameras** arranged in a geodesic dome-like structure.
+We rebuild the classic “ambient room” interaction system on a smaller scale, set inside a phone booth.
+
+AmbientPhoneBooth was an interactive audio installation that transformed a phone booth into an on-demand spatial audio experience. The system captured auditory memories and recreated spatialized soundscapes with delayed feedback, evoking nostalgia and a sense of temporal presence.
 
 ### Initial Plan
 - **Hardware:** Raspberry Pi Zero boards with camera cables  
