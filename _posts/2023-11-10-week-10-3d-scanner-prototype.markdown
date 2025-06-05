@@ -10,6 +10,8 @@ author: "D. Pillis"
 *MIT, USA — MIT Media Lab / MIT BCS / MIT Museum / MIT Innovation Initiative*
 
 ---
+<blockquote>
+  <p>
 We developed a series of **vision augmentation systems** using the Varjo XR-3 mixed-reality pass-through headset. These systems augment human vision in real time by applying **live spatial frequency filters** to the visual input.
 
 By selectively removing or enhancing specific spatial frequencies, we can alter perception to highlight or suppress particular visual details—an approach that may support novel modes of attention, accessibility, and cognitive enhancement.
