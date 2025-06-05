@@ -9,7 +9,7 @@ author: "Daniel Pillis*, Pattie Pataranutaporn*, Pattie Maes, Misha Sra (2024)"
 
 # AI Theatre: Human-AI Collaboration for Conflict Resolution
 
-Recent advances in artificial intelligence—particularly large language models—have enabled highly realistic, real-time interactions with virtual characters. In our project *AI Theatre*, we explore how multi-agent, conversational interfaces can enhance users' real-life interpersonal skills through immersive simulation.
+Recent advances in artificial intelligence—particularly large language models—have enabled highly realistic, real-time interactions with virtual characters. In our project *AI Theatre*, we explore how multi-agent, conversational interfaces can enhance users' real-life interpersonal skills through immersive simulation. 
 
 AI Theatre is a pedagogical platform that merges AI and performance. Drawing inspiration from Augusto Boal’s “Theatre of the Oppressed,” we use virtual agents and generative models to simulate lifelike social conflict scenarios. Users engage with these characters in a safe simulation environment, experimenting with different strategies to resolve interpersonal tensions.
 
