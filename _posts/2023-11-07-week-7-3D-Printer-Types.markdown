@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "AI Comes Out of the Closet: Using AI-Generated Virtual Characters to Help Individuals Practice LGBTQIA+ Advocacy"
+title:  ""
 date:   2023-11-01 22:21:59 +00:00
 image: /images/4.jpg
 categories: research
 author: "Daniel Pillis*, Pattie Pataranutaporn*, Pattie Maes, Misha Sra (2024)"
 ---
+**AI Comes Out of the Closet: Using AI-Generated Virtual Characters to Help Individuals Practice LGBTQIA+ Advocacy**  
 Daniel Pillis*, Pattie Pataranutaporn*, Pattie Maes, Misha Sra  
 *MIT Media Lab / MIT — ACM Conference on Intelligent User Interfaces (2024)*
 <blockquote>
