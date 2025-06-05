@@ -17,6 +17,7 @@ We developed a series of **vision augmentation systems** using the Varjo XR-3 mi
 By selectively removing or enhancing specific spatial frequencies, we can alter perception to highlight or suppress particular visual details—an approach that may support novel modes of attention, accessibility, and cognitive enhancement.
 
 > *"Perception is not about seeing everything—it’s about seeing what matters."*
-
+  </p>
+</blockquote>
 
 ---
