@@ -11,8 +11,3 @@ Using real time Stable Diffusion, a Touch Designer system enables real time prom
 
 This project integrates real-time diffusion models into virtual production, enhancing in-camera VFX and set design through generative AI. By streamlining environment creation and prototyping, it reduces costs and improves efficiency. Our case studies show how AI-driven workflows can transform filmmaking, enabling adaptive, performance-based design in immersive storytelling environments.
 
-<img src="tn/images/cage-test.png" alt="drawing" width="200"/>
-<blockquote>
-  <p>
-  </p>
-</blockquote>
