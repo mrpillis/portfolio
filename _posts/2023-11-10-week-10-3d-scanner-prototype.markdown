@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Week 10: 3D Scanner Prototype"
+title:  "Perceive More By Seeing Less: Vision Augmentation Systems"
 date:   2023-11-01 22:21:59 +00:00
 image: /dpillis-htmaa/images/1.jpg
 categories: research
