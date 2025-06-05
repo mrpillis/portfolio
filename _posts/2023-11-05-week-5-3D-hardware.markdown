@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "TeleAbsence: Visions of Afterlife Telepresence"
+title:  "Real-time Stable Diffusion for Virtual Production: Room Scale Generative AI towards the Ultimate Display"
 date:   2023-11-01 22:21:59 +00:00
 image: "tn/images/7.jpg"
 categories: research
 author: "Hiroshi Ishii, Daniel Pillis*, Pat Pataranutaporn*, Xin Xiao, Alaa Algargoosh, Lucy Li, Jean-Baptiste Labrune (2024)"
 ---
+Daniel Pillis, Phillip Cerner, Martin Sawtell  
+*Emerson College / MIT — Dell EMC — Generative AI for Design Workshop (2025), Extended Abstract*
 
 Using real time Stable Diffusion, a Touch Designer system enables real time prompting to dynamically change objects, environments, and actors in an immersive state of the art virtual production environment 
 
