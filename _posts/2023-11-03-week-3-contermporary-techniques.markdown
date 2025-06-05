@@ -8,7 +8,7 @@ author: "D. Pillis, Ziare Sherman, Hiroshi Ishii"
 ---
 
 We rebuild the classic “ambient room” interaction system on a smaller scale, set inside a phone booth.
-
+e
 AmbientPhoneBooth was an interactive audio installation that transformed a phone booth into an on-demand spatial audio experience. The system captured auditory memories and recreated spatialized soundscapes with delayed feedback, evoking nostalgia and a sense of temporal presence.
 
 ### Initial Plan
