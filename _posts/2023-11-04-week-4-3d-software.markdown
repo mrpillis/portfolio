@@ -4,11 +4,11 @@ title: "Week 4: 3D Software"
 date: 2023-11-01 22:21:59 +00:00
 image: /images/6.jpg
 categories: research
-author: "D Pillis"
+author: "Hiroshi Ishii, Ozgun Kilic Afsar, Wedyan Babatain, Cathy Fang, Jack Forman, Sarah Nicita, Daniel Pillis, Lingyan Yang, Jean-Baptiste Labrune (2023)"
 ---
 
-On October 31st, I manufactured six HoloKits using the laser cutter to support a tutorial on mixed reality. The goal was to give students the ability to create their own holographic display viewers.  
-<img src="/tn/images/holokit.jpg" alt="Holokit prototype" width="200"/>
+Human-Material Interaction for Expression, Performance, and Remembering
+CHI Workshop, 2023<img src="/tn/images/holokit.jpg" alt="Holokit prototype" width="200"/>
 
 https://github.com/mrpillis/dpillis-htmaa/blob/master/_site/tn/images/Holokit.jpg
 
