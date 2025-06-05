@@ -7,7 +7,7 @@ categories: research
 author: "Daniel Pillis*, Pattie Pataranutaporn*, Pattie Maes, Misha Sra (2024)"
 ---
 
-# AI Theatre: Human-AI Collaboration for Conflict Resolution
+# Empty
 
 
 
