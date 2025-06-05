@@ -8,5 +8,5 @@ author: "Hiroshi Ishii, Ozgun Kilic Afsar, Wedyan Babatain, Cathy Fang, Jack For
 ---
 
 Human-Material Interaction for Expression, Performance, and Remembering
-CHI Workshop, 2023<img src="/tn/images/holokit.jpg" alt="Holokit prototype" width="200"/>
+CHI Workshop, 2023
 
