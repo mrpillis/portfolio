@@ -15,7 +15,7 @@ footer-links:
 
 # Site URL for sitemap and RSS
 url: "http://dpillis.github.io"
-baseurl: ""  # Keep empty for user/organization pages
+baseurl: "/dpillis-htmaa"  # Keep empty for user/organization pages
 
 # permalink: /:title/
 permalink: /
