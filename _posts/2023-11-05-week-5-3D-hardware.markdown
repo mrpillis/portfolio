@@ -4,7 +4,7 @@ title:  ""
 date:   2023-11-01 22:21:59 +00:00
 image: "/dpillis-htmaa/images/7.jpg"
 categories: research
-author: "Hiroshi Ishii, Daniel Pillis*, Pat Pataranutaporn*, Xin Xiao, Alaa Algargoosh, Lucy Li, Jean-Baptiste Labrune (2024)"
+author: ""
 ---
 **Real-time Stable Diffusion for Virtual Production: Room Scale Generative AI towards the Ultimate Display**  
 Daniel Pillis, Phillip Cerner, Martin Sawtell  
