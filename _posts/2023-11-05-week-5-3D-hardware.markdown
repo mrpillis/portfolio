@@ -2,7 +2,7 @@
 layout: post
 title:  ""
 date:   2023-11-01 22:21:59 +00:00
-image: "tn/images/7.jpg"
+image: "/dpillis-htmaa/images/7.jpg"
 categories: research
 author: "Hiroshi Ishii, Daniel Pillis*, Pat Pataranutaporn*, Xin Xiao, Alaa Algargoosh, Lucy Li, Jean-Baptiste Labrune (2024)"
 ---
