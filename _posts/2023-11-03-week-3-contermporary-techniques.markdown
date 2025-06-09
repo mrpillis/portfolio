@@ -2,7 +2,7 @@
 layout: post
 title: ""
 date: 2023-11-01 22:21:59 +00:00
-image: /images/8.jpg
+image: /dpillis-htmaa/assets/images/3.jpg
 categories: research
 author: "D. Pillis, Ziare Sherman, Hiroshi Ishii"
 ---
