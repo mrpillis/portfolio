@@ -14,7 +14,7 @@ footer-links:
   # stackoverflow:
 
 # Site URL for sitemap and RSS
-url: "http://dpillis.github.io"
+url: "https://mrpillis.github.io"
 baseurl: "/dpillis-htmaa"  # Keep empty for user/organization pages
 
 # permalink: /:title/
