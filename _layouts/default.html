@@ -73,11 +73,12 @@
           {% for cat in post.categories %}
           {% if cat == 'research' %}
           <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+         <td style="padding:2.5%;width:25%;vertical-align:top;min-width:120px">
         <img src="{{ '/assets/images/' | append: post.image | relative_url }}" 
-  alt="project image" 
-  style="display: block; max-width: 300px; width: 100%; height:
-            </td>
+    alt="project image"
+    style="max-width:120px; width:100%; height:auto; display:block; border-radius:6px;"
+  />
+</td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
               <br>
