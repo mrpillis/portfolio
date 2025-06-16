@@ -2,7 +2,7 @@
 layout: post
 title:  ""
 date:   2023-11-01 22:21:59 +00:00
-image: "/dpillis-htmaa/images/7.jpg"
+image: 7.jpg
 categories: research
 author: ""
 ---
