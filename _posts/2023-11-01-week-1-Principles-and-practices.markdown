@@ -2,7 +2,7 @@
 layout: post
 title: "Week 1 – Principles and Practices"
 date: 2023-11-01 22:21:59 +00:00
-image: /images/10.jpg
+image: 10.jpg
 categories: research
 author: "D Pillis"
 ---
