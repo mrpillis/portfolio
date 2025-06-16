@@ -49,9 +49,10 @@
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
-              <img src="{{ '/assets/images/' | append: post.image | relative_url }}" alt="project image"
-     style="width:100%; height:auto; max-width:300px; border-radius:8px;" />
-
+  <img src="{{ '/assets/images/DPillis_Pic.jpg' | relative_url }}" 
+  alt="Daniel Pillis profile photo" 
+  style="display: block; max-width: 300px; width: 100%; height: auto; margin: 0 auto; border-radius: 8px;"
+/>
             </td>
           </tr>
         </table>
@@ -73,7 +74,9 @@
           {% if cat == 'research' %}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-            <img src="{{ '/assets/images/' | append: post.image | relative_url }}" alt="project image">
+        <img src="{{ '/assets/images/' | append: post.image | relative_url }}" 
+  alt="project image" 
+  style="display: block; max-width: 300px; width: 100%; height:
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
