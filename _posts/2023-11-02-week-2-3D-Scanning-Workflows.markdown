@@ -2,7 +2,7 @@
 layout: post
 title: ""
 date: 2023-11-01 22:21:59 +00:00
-image: tn/images/9.jpg
+image: 9.jpg
 categories: research
 author: "D Pillis"
 ---
