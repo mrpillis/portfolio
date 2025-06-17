@@ -2,7 +2,7 @@
 layout: post
 title:  ""
 date:   2023-11-01 22:21:59 +00:00
-image: 5.jpg
+image: 4.jpg
 categories: research
 author: "Daniel Pillis, Hiroshi Ishii, Alaa Algargoosh, Lucy Li, Jean-Baptiste Labrune (2024)"
 --- 
