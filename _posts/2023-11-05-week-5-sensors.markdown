@@ -11,4 +11,6 @@ author: "Daniel Pillis, Hiroshi Ishii, Alaa Algargoosh, Lucy Li, Jean-Baptiste L
 Daniel Pillis, Hiroshi Ishii, Alaa Algargoosh, Lucy Li, Jean-Baptiste Labrune  
 *MIT Media Lab — Tangible Media Group (2024)*
 
-To preserve autobiographical memory in simulations through immersive systems, this ongoing body of work explores methods for creating interfaces that link tangible objects, 3D scans of real spaces, and virtual artifacts integrated with lived experiences. The goal is to create linkages capable of evoking vivid memory recollection. These systems are designed to facilitate intergenerational memory sharing and have shown potential for enhancing emotional well-being, family and social connectivity, as well as evoking feelings of telepresence and communication across time.
+This ongoing research investigates how immersive systems can preserve autobiographical memory by integrating tangible objects, 3D scans of real environments, and virtual artifacts grounded in lived experience. The project aims to create emotionally resonant linkages that evoke vivid memory recollection.
+
+Designed to support intergenerational memory sharing, these systems show promising potential for enhancing emotional well-being, strengthening familial and social bonds, and fostering a sense of telepresence—enabling communication and connection across time.
