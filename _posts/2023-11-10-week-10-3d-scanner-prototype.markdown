@@ -2,7 +2,7 @@
 layout: post
 title:  ""
 date:   2023-11-01 22:21:59 +00:00
-image: 1.jpg
+image: 1-17 Vision Simulation_1.gif
 categories: research
 author: "D. Pillis"
 ---
