@@ -93,10 +93,10 @@
          alt="project image"
          style="max-width:300px; width:300%; height:auto; display:block; border-radius:10px;" />
   </td>
-<td style="padding:2.5%;width:75%;vertical-align:top;">
+<td style="padding:5%;width:75%;vertical-align:top;">
   <div class="post-block">
     <h3>{{ post.title }}</h3>
-      <p style="margin:1em;">{{ post.authors }}</p>
+      <p style="margin:0 0 0.25em 0;">{{ post.authors }}</p>
       <p style="margin:0 0 0.25em 0;"> 
         {% if post.arxiv %}<a href="{{post.arxiv}}">arxiv</a> / {% endif %}
         {% if post.video %}<a href="{{post.video}}">video</a> / {% endif %}
@@ -106,7 +106,7 @@
         {% if post.website %}<a href="{{post.website}}">website</a> / {% endif %}
         {% if post.youtube %}<a href="{{post.youtube}}">youtube</a> / {% endif %}
       </p>
-      <p style="margin:3em;">{{ post.excerpt }}</p> 
+      <p style="margin:0 0 0.25em 0">{{ post.excerpt }}</p> 
     </div>
   </td>
 </tr>
