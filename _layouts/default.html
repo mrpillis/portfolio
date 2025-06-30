@@ -93,9 +93,9 @@
          alt="project image"
          style="max-width:200px; width:100%; height:auto; display:block; border-radius:5px;" />
   </td>
-  <td style="padding:2.5%;width:75%;vertical-align:top;">
-    <div style="margin:0; padding:0;">
-      <h3 style="margin:0 0 0.25em 0; padding:0;">{{ post.title }}</h3>
+<td style="padding:2.5%;width:75%;vertical-align:top;">
+  <div class="post-block">
+    <h3>{{ post.title }}</h3>
       <p style="margin:0 0 0.25em 0;">{{ post.authors }}</p>
       <p style="margin:0 0 0.25em 0;">
         {% if post.arxiv %}<a href="{{post.arxiv}}">arxiv</a> / {% endif %}
