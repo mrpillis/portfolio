@@ -2,7 +2,7 @@
 layout: post
 title: "Towards Temporal Telepresence & Multisensory Spatial Intelligence: Reconstructing the Human Experience through TeleAbsence"
 date: 2023-11-01 22:21:59 +00:00
-image: 4.jpg
+image: 1-10 Jefferson Simulation_1.gif
 categories: research
 author: "Daniel Pillis, Hiroshi Ishii, Alaa Algargoosh, Lucy Li, Jean-Baptiste Labrune"
 ---
