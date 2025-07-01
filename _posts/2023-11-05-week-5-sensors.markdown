@@ -6,9 +6,6 @@ image: 4.jpg
 categories: research
 author: "Daniel Pillis, Hiroshi Ishii, Alaa Algargoosh, Lucy Li, Jean-Baptiste Labrune"
 ---
-
-**Towards Temporal Telepresence & Multisensory Spatial Intelligence: Reconstructing the Human Experience through TeleAbsence**  
-Daniel Pillis, Hiroshi Ishii, Alaa Algargoosh, Lucy Li, Jean-Baptiste Labrune  
 *MIT Media Lab — Tangible Media Group (2024)*
 <blockquote>
   <p>
