@@ -2,7 +2,7 @@
 layout: post
 title: ""
 date: 2023-11-01 22:21:59 +00:00
-image: 4.jpg
+image: 1-7 TMG Simulator_1.gif
 categories: research
 author: "Hiroshi Ishii, Ozgun Kilic Afsar, Wedyan Babatain, Cathy Fang, Jack Forman, Sarah Nicita, Daniel Pillis, Lingyan Yang, Jean-Baptiste Labrune (2023)"
 ---
