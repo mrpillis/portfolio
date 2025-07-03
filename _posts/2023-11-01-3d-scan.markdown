@@ -11,5 +11,5 @@ author: "D Pillis"
 Daniel Pillis, Chris Atkeson  
 *Carnegie Mellon University — Robotics Institute*
 
-<blockquote> <p>This project presents a full-body 3D scan of a subject posed within a partially demolished interior space. Captured using photogrammetry and volumetric reconstruction, the subject appears suspended in time with arms extended, evoking both vulnerability and presence. This scan forms part of a broader exploration into embodied presence, memory, and spatial storytelling for use in mixed reality installations, virtual heritage archives, and generative AI environments.
+<blockquote> <p>A survery of 3D scanning techniques include photogrammetry, structured light, LiDAR, and depth sensing. Photogrammetry uses overlapping photos to reconstruct geometry. Structured light and LiDAR project patterns or lasers to capture precise depth. Depth cameras like Intel RealSense offer real-time scanning. Each method balances cost, resolution, and suitability for static or dynamic subjects.
  </p> </blockquote>
