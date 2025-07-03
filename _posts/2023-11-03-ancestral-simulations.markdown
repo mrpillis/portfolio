@@ -15,4 +15,3 @@ author: "D. Pillis, Georine Pierre"
 This interactive motion capture project, in collaboration with Georine Pierre, used ancestral storytelling and Haitian folklore dance to explore “ancestor simulations.” Participants engaged with recorded rituals via Kinect, layering movement and memory over time. The evolving archive connected cultural history, water symbolism, and embodied interaction within a responsive installation.
   </p>
 </blockquote>
-
