@@ -7,7 +7,7 @@ categories: research
 author: "D Pillis"
 ---
 **Virtual Newell**  
-**D. Pillis, **  
+*D. Pillis*
 *MIT, USA — MIT Media Lab / MIT BCS / MIT Museum / MIT Innovation Initiative*
 <blockquote>
   <p>
