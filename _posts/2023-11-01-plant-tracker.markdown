@@ -10,18 +10,10 @@ author: "D Pillis"
 **D. Pillis**  
 *MIT Media Lab / MIT Brain & Cognitive Sciences / MIT Museum / MIT Innovation Initiative, MIT, USA*  
 *Formerly: Princeton University*
-
 **Jia-Bin Huang, PhD**  
 *Department of Electrical & Computer Engineering, Virginia Tech, USA*
-
 **Bingyu Zhao, PhD**  
 *Department of Horticulture, Virginia Tech, USA*
-
-> **Max Esterhuizen**  
-> *"The Sound of Plants Dancing."* [Virginia Tech News](https://news.vt.edu/articles/2023/06/research-pepper-plant-sound.html)  
-
-> **Katherine Hafner**  
-> *"Virginia researchers are studying ‘the sound of plants dancing’ to better the future of agriculture."* [The Virginian-Pilot](https://www.pilotonline.com/2023/06/07/virginia-researchers-plants-dancing-sound/)
 
 <blockquote>
   <p>
