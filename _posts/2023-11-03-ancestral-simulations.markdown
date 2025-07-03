@@ -6,9 +6,8 @@ image: 1-3 Ancestral Simulations_1.gif
 categories: research
 author: "D. Pillis, Georine Pierre"
 ---
-
 **Ancestral Simulations**  
-**D. Pillis, **  
+*D. Pillis*  
 *MIT, USA — MIT Media Lab / MIT BCS / MIT Museum / MIT Innovation Initiative*
 <blockquote>
   <p>
