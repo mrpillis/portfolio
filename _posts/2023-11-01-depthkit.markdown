@@ -1,12 +1,15 @@
 ---
 layout: post
-title: "Depthkit Explorations"
+title: ""
 date: 2023-11-01 22:21:59 +00:00
 image: depthkit.gif
 categories: research
 author: "D Pillis"
 ---
 
+**Depthkit Explorations**  
+*D. Pillis*
+*MIT, USA — MIT Media Lab / MIT BCS / MIT Museum / MIT Innovation Initiative*
 <blockquote> <p>A series of explorations using Depthkit and volumetric capture techniques produced a dataset focused on reconstructing embodied presence within architecturally complex spaces. Using these techniques, we generated scenes that are stereo-compatible and suitable for real-time rendering in VR headsets.
 The result is a collection of volumetric clips and environmental scans that challenge the boundary between documentary realism and spatial abstraction.
  </p> </blockquote>
