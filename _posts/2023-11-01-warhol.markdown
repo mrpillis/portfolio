@@ -7,9 +7,17 @@ categories: research
 author: "D Pillis"
 ---
 
-**Virtual Newell Simon Simulation**  
-Daniel Pillis, Chris Atkeson  
+**Warhol**  
+Daniel Pillis
 *Carnegie Mellon University — Robotics Institute*
 
-<blockquote> <p>A full scale recreation of the offices of influential AI researchers Allen Newell and Herbert Simon, used to create a generative environment where their research is manifested in augmented reality through spatial artificial intelligence. 316,000 documents are integrated as augmented reality objects into a physical set
+<blockquote> <p>As part of the Andy Warhol Museum’s “Exposures” series, I created Andy Warhola’s Living Room—a digitally fabricated 3D recreation of Warhol’s childhood home, inspired by his pastel drawing “Living Room.” The installation reimagined Warhol’s memory through archival photos, family input, and digital sculptural techniques.
+
+Press:
+
+2015
+Pittsburgh City Paper, The Year in Visual Art by Robert Raczka.
+
+2014
+The Warhol Blog, Andy Warhola’s Living Room
  </p> </blockquote>
