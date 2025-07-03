@@ -6,17 +6,24 @@ image: 1-19 Virtual Newell_2.gif
 categories: research
 author: "D Pillis"
 ---
+**D. Pillis**  
+*MIT Media Lab / MIT Brain & Cognitive Sciences / MIT Museum / MIT Innovation Initiative, MIT, USA*  
+*Formerly: Princeton University*
 
-**Plant Tracker**  
-Jia-Bin Huang, PhD
-Electrical & Computer Engineering, Virginia Tech, USA
+**Jia-Bin Huang, PhD**  
+*Department of Electrical & Computer Engineering, Virginia Tech, USA*
 
-Bingyu Zhao, PhD
-Horticulture, Virginia Tech, USA
+**Bingyu Zhao, PhD**  
+*Department of Horticulture, Virginia Tech, USA*
 
-Virginia Tech News, The Sound of Plants Dancing, Max Esterhuizen.
+> **Max Esterhuizen**  
+> *"The Sound of Plants Dancing."* Virginia Tech News.  
 
-The Virginian Pilot, Virginia researchers are studying ‘the sound of plants dancing’ to better the future of agriculture, By Katherine Hafner
+> **Katherine Hafner**  
+> *"Virginia researchers are studying ‘the sound of plants dancing’ to better the future of agriculture."* The Virginian-Pilot.
 
-<blockquote> <p>I built a multi-camera system to capture pepper plant growth under varying light conditions. Using computer vision and imaging, we created a dataset of plant movement, enabling sonification and analysis of plant responses across science, art, and technology.
- </p> </blockquote>
+<blockquote>
+  <p>
+I built a multi-camera system to capture pepper plant growth under varying light conditions. Using computer vision and imaging, we created a dataset of plant movement, enabling sonification and analysis of plant responses across science, art, and technology.
+  </p>
+</blockquote>
