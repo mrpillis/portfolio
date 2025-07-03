@@ -7,7 +7,7 @@ categories: research
 author: "D Pillis"
 ---
 
-**Virtual Newell Simon Simulation**  
+**Plant Tracker**  
 Jia-Bin Huang, PhD
 Electrical & Computer Engineering, Virginia Tech, USA
 
