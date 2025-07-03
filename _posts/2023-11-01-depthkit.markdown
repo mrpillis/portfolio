@@ -7,9 +7,11 @@ categories: research
 author: "D Pillis"
 ---
 
-**Virtual Newell Simon Simulation**  
-Daniel Pillis, Chris Atkeson  
+**3D scanning**  
+Daniel Pillis
 *Carnegie Mellon University — Robotics Institute*
 
-<blockquote> <p>A full scale recreation of the offices of influential AI researchers Allen Newell and Herbert Simon, used to create a generative environment where their research is manifested in augmented reality through spatial artificial intelligence. 316,000 documents are integrated as augmented reality objects into a physical set
+<blockquote> <p> A series of explorations using Depthkit and volumetric capture techniques produced a dataset focused on reconstructing embodied presence within architecturally complex spaces. Using these techniques, we generated scenes that are stereo-compatible and suitable for real-time rendering in VR headsets.
+The result is a collection of volumetric clips and environmental scans that challenge the boundary between documentary realism and spatial abstraction.
+
  </p> </blockquote>
