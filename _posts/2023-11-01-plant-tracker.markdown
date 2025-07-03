@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Sound of Plants Dancing"
+title: ""
 date: 2023-11-01 22:21:59 +00:00
 image: Plant_Tracker.gif
 categories: research
