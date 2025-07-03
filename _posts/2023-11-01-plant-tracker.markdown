@@ -11,7 +11,6 @@ author: "D Pillis"
 Jia-Bin Huang, PhD
 Electrical & Computer Engineering, Virginia Tech, USA
 
-
 Bingyu Zhao, PhD
 Horticulture, Virginia Tech, USA
 
