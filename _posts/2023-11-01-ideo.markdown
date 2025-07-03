@@ -1,15 +1,17 @@
 ---
 layout: post
-title: ""
+title: "IDEO Emerging Technologies"
 date: 2023-11-01 22:21:59 +00:00
 image: 1-4 IDEO.gif
 categories: research
 author: "D Pillis"
 ---
 
-**Virtual Newell Simon Simulation**  
-Daniel Pillis, Chris Atkeson  
+**IDEO Emerging Technologies**  
+Daniel Pillis
 *Carnegie Mellon University — Robotics Institute*
 
-<blockquote> <p>A full scale recreation of the offices of influential AI researchers Allen Newell and Herbert Simon, used to create a generative environment where their research is manifested in augmented reality through spatial artificial intelligence. 316,000 documents are integrated as augmented reality objects into a physical set
+<blockquote> <p>This series of tests explores how immersive environmental design impacts cognitive and emotional states, using EEG neurofeedback in responsive rooms. Participants were recorded in varying postures—seated, reclined, and in transition—within dynamic, projection-mapped interiors developed at IDEO. Lighting, visuals, and acoustic elements adapt in real-time to user interaction and biometric signals.
+
+The project investigates how spatial affordances influence neural activity, comfort, and focus. Resulting data—from brainwave recordings to behavioral footage—form a multimodal dataset for designing future adaptive environments. This research bridges spatial computing, wellness technology, and embodied interaction for applications in health, workplace design, and extended reality.
  </p> </blockquote>
