@@ -12,8 +12,7 @@ author: "D. Pillis, Georine Pierre"
 *MIT, USA — MIT Media Lab / MIT BCS / MIT Museum / MIT Innovation Initiative*
 <blockquote>
   <p>
-We developed a series of vision augmentation systems using the Varjo XR-3 mixed-reality pass-through headset. These systems augment human vision in real time by applying live spatial frequency filters to the visual input.
-By selectively removing or enhancing specific spatial frequencies, we can alter perception to highlight or suppress particular visual details—an approach that may support novel modes of attention, accessibility, and cognitive enhancement.
+This interactive motion capture project, in collaboration with Georine Pierre, used ancestral storytelling and Haitian folklore dance to explore “ancestor simulations.” Participants engaged with recorded rituals via Kinect, layering movement and memory over time. The evolving archive connected cultural history, water symbolism, and embodied interaction within a responsive installation.
   </p>
 </blockquote>
 
