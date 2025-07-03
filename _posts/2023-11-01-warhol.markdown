@@ -6,7 +6,7 @@ image: warhol_1.gif
 categories: research
 author: "D Pillis"
 ---
-**Ancestral Simulations**  
+**Andy Warhol Project**  
 **D. Pillis, **  
 *MIT, USA — MIT Media Lab / MIT BCS / MIT Museum / MIT Innovation Initiative*
 <blockquote>
