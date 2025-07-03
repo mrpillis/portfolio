@@ -8,8 +8,13 @@ author: "D Pillis"
 ---
 
 **Virtual Newell Simon Simulation**  
-Daniel Pillis, Chris Atkeson  
-*Carnegie Mellon University — Robotics Institute*
+Jia-Bin Huang, PhD
+Electrical & Computer Engineering, Virginia Tech, USA
 
-<blockquote> <p>A full scale recreation of the offices of influential AI researchers Allen Newell and Herbert Simon, used to create a generative environment where their research is manifested in augmented reality through spatial artificial intelligence. 316,000 documents are integrated as augmented reality objects into a physical set
+
+Bingyu Zhao, PhD
+Horticulture, Virginia Tech, USA
+
+
+<blockquote> <p>I built a multi-camera system to capture pepper plant growth under varying light conditions. Using computer vision and imaging, we created a dataset of plant movement, enabling sonification and analysis of plant responses across science, art, and technology.
  </p> </blockquote>
