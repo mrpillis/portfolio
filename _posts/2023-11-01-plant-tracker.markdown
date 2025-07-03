@@ -15,6 +15,9 @@ Electrical & Computer Engineering, Virginia Tech, USA
 Bingyu Zhao, PhD
 Horticulture, Virginia Tech, USA
 
+Virginia Tech News, The Sound of Plants Dancing, Max Esterhuizen.
+
+The Virginian Pilot, Virginia researchers are studying ‘the sound of plants dancing’ to better the future of agriculture, By Katherine Hafner
 
 <blockquote> <p>I built a multi-camera system to capture pepper plant growth under varying light conditions. Using computer vision and imaging, we created a dataset of plant movement, enabling sonification and analysis of plant responses across science, art, and technology.
  </p> </blockquote>
