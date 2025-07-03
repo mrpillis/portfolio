@@ -7,11 +7,6 @@ categories: research
 author: "D Pillis"
 ---
 
-**3D scanning**  
-Daniel Pillis
-*Carnegie Mellon University — Robotics Institute*
-
-<blockquote> <p> A series of explorations using Depthkit and volumetric capture techniques produced a dataset focused on reconstructing embodied presence within architecturally complex spaces. Using these techniques, we generated scenes that are stereo-compatible and suitable for real-time rendering in VR headsets.
+<blockquote> <p>A series of explorations using Depthkit and volumetric capture techniques produced a dataset focused on reconstructing embodied presence within architecturally complex spaces. Using these techniques, we generated scenes that are stereo-compatible and suitable for real-time rendering in VR headsets.
 The result is a collection of volumetric clips and environmental scans that challenge the boundary between documentary realism and spatial abstraction.
-
  </p> </blockquote>
