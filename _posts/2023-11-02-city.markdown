@@ -7,9 +7,9 @@ categories: research
 author: "D Pillis"
 ---
 
-**Virtual Newell Simon Simulation**  
-Daniel Pillis, Chris Atkeson  
-*Carnegie Mellon University — Robotics Institute*
+**City**  
+Daniel Pillis
 
-<blockquote> <p>A full scale recreation of the offices of influential AI researchers Allen Newell and Herbert Simon, used to create a generative environment where their research is manifested in augmented reality through spatial artificial intelligence. 316,000 documents are integrated as augmented reality objects into a physical set
+<blockquote> <p>City of Lost Men is a 1950 re-edit of the 1935 sci-fi serial The Lost City, reduced from 12 parts into a fragmented B-movie. This project critically reassembles its 820 cuts into a panoramic grid.
+
  </p> </blockquote>
