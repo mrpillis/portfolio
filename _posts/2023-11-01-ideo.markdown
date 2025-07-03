@@ -1,12 +1,15 @@
 ---
 layout: post
-title: "IDEO Emerging Technologies"
+title: ""
 date: 2023-11-01 22:21:59 +00:00
 image: 1-4 IDEO.gif
 categories: research
 author: "D Pillis"
 ---
 
+**IDEO Emerging Technologies**  
+*D. Pillis*
+*MIT, USA — MIT Media Lab / MIT BCS / MIT Museum / MIT Innovation Initiative*
 <blockquote> <p>This series of tests explores how immersive environmental design impacts cognitive and emotional states, using EEG neurofeedback in responsive rooms. Participants were recorded in varying postures—seated, reclined, and in transition—within dynamic, projection-mapped interiors developed at IDEO. Lighting, visuals, and acoustic elements adapt in real-time to user interaction and biometric signals.
 
 The project investigates how spatial affordances influence neural activity, comfort, and focus. Resulting data—from brainwave recordings to behavioral footage—form a multimodal dataset for designing future adaptive environments. This research bridges spatial computing, wellness technology, and embodied interaction for applications in health, workplace design, and extended reality.
