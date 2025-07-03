@@ -1,11 +1,12 @@
 ---
 layout: post
-title: ""
+title: "The Sound of Plants Dancing"
 date: 2023-11-01 22:21:59 +00:00
 image: Plant_Tracker.gif
 categories: research
 author: "D Pillis"
 ---
+
 **D. Pillis**  
 *MIT Media Lab / MIT Brain & Cognitive Sciences / MIT Museum / MIT Innovation Initiative, MIT, USA*  
 *Formerly: Princeton University*
@@ -17,10 +18,10 @@ author: "D Pillis"
 *Department of Horticulture, Virginia Tech, USA*
 
 > **Max Esterhuizen**  
-> *"The Sound of Plants Dancing."* Virginia Tech News.  
+> *"The Sound of Plants Dancing."* [Virginia Tech News](https://news.vt.edu/articles/2023/06/research-pepper-plant-sound.html)  
 
 > **Katherine Hafner**  
-> *"Virginia researchers are studying ‘the sound of plants dancing’ to better the future of agriculture."* The Virginian-Pilot.
+> *"Virginia researchers are studying ‘the sound of plants dancing’ to better the future of agriculture."* [The Virginian-Pilot](https://www.pilotonline.com/2023/06/07/virginia-researchers-plants-dancing-sound/)
 
 <blockquote>
   <p>
