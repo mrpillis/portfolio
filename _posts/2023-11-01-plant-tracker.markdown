@@ -7,13 +7,11 @@ categories: research
 author: "D Pillis"
 ---
 
-**D. Pillis**  
-*MIT Media Lab / MIT Brain & Cognitive Sciences / MIT Museum / MIT Innovation Initiative, MIT, USA*  
-*Formerly: Princeton University*
-**Jia-Bin Huang, PhD**  
-*Department of Electrical & Computer Engineering, Virginia Tech, USA*
-**Bingyu Zhao, PhD**  
-*Department of Horticulture, Virginia Tech, USA*
+**Plant Sonification: A Multimodal Imaging System for Capturing and Translating Pepper Plant Growth into Sound**  
+D. Pillis*, Jia-Bin Huang, PhD, Bingyu Zhao, PhD  
+*MIT Media Lab / MIT Brain & Cognitive Sciences / MIT Museum / MIT Innovation Initiative — Formerly: Princeton University*  
+*Virginia Tech — Department of Electrical & Computer Engineering*  
+*Virginia Tech — Department of Horticulture (2023)*
 
 <blockquote>
   <p>
