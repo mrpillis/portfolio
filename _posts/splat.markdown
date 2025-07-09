@@ -2,7 +2,7 @@
 layout: post
 title: "Depthkit"
 date: 2023-11-01 22:21:59 +00:00
-image: 1-9 3D Scan_1.gif
+image: Splat_2 (2).gif
 categories: research
 author: "D Pillis"
 ---
