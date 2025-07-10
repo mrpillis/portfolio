@@ -9,9 +9,8 @@ author: "D Pillis"
 
 **Plant Sonification: A Multimodal Imaging System for Capturing and Translating Pepper Plant Growth into Sound**  
 D. Pillis*, Jia-Bin Huang, PhD, Bingyu Zhao, PhD  
-*MIT Media Lab / MIT Brain & Cognitive Sciences / MIT Museum / MIT Innovation Initiative — Formerly: Princeton University*  
-*Virginia Tech — Department of Electrical & Computer Engineering*  
-*Virginia Tech — Department of Horticulture (2023)*
+*Virgina Tech ICAT, Virginia Tech — Department of Electrical & Computer Engineering, Virginia Tech — Department of Horticulture (2023)*  
+**
 
 <blockquote>
   <p>
