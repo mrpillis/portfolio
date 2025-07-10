@@ -6,7 +6,6 @@ image: 1-19 Virtual Newell_2.gif
 categories: research
 author: "D Pillis"
 ---
-**Virtual Newell**  
 *D. Pillis*
 *MIT, USA — MIT Media Lab / MIT BCS / MIT Museum / MIT Innovation Initiative*
 <blockquote>
