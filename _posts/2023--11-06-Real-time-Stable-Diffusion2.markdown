@@ -1,1 +1,11 @@
-2023--11-06-Real-time-Stable-Diffusion.markdown
+---
+layout: post
+title: "Steelcase Tracking"
+date: 2023-11-01 22:21:59 +00:00
+image: 1-14 Return of the Jibo 2.gif
+categories: research
+author: "D Pillis"
+---
+<blockquote> <p>A survery of 3D scanning techniques include photogrammetry, structured light, LiDAR, and depth sensing. Photogrammetry uses overlapping photos to reconstruct geometry. Structured light and LiDAR project patterns or lasers to capture precise depth. Depth cameras like Intel RealSense offer real-time scanning. Each method balances cost, resolution, and suitability for static or dynamic subjects.
+ </p> </blockquote>
+
