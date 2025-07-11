@@ -2,7 +2,7 @@
 layout: post
 title: "Real-time Stable Diffusion for Virtual Production: Room Scale Generative AI towards the Ultimate Display"
 date: 2023-11-01 22:21:59 +00:00
-image: 1-9 3D Scan_1.gif
+image: Virtual_Production.gif
 categories: research
 author: "Daniel Pillis"
 ---
