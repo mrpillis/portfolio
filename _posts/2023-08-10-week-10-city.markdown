@@ -2,7 +2,7 @@
 layout: post
 title: "City"
 date: 2023-11-01 22:21:59 +00:00
-image: city_gif.gif
+image: city.gif
 categories: research
 author: "D Pillis"
 ---
