@@ -2,7 +2,7 @@
 layout: post
 title:  ""
 date:   2023-11-01 22:21:59 +00:00
-image: Coming_Out.gif
+image: 1-11 Coming Out_2.gif
 categories: research
 author: "Daniel Pillis*, Pat Pataranutaporn*, Pattie Maes, Misha Sra (2024)"
 ---
