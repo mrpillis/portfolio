@@ -1,1 +1,16 @@
+---
+layout: post
+title: ""
+date: 2023-11-01 22:21:59 +00:00
+image: trojan.gif
+categories: research
+author: "D Pillis"
+---
+
+**Depthkit Explorations**  
+*D. Pillis*
+*MIT, USA — MIT Media Lab / MIT BCS / MIT Museum / MIT Innovation Initiative*
+<blockquote> <p>A series of explorations using Depthkit and volumetric capture techniques produced a dataset focused on reconstructing embodied presence within architecturally complex spaces. Using these techniques, we generated scenes that are stereo-compatible and suitable for real-time rendering in VR headsets. A survery of 3D scanning techniques include photogrammetry, structured light, LiDAR, and depth sensing. Photogrammetry uses overlapping photos to reconstruct geometry. Structured light and LiDAR project patterns or lasers to capture precise depth. Depth cameras like Intel RealSense offer real-time scanning. Each method balances cost, resolution, and suitability for static or dynamic subjects.
+
+ </p> </blockquote>
 
