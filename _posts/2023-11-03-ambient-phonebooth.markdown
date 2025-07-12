@@ -2,7 +2,7 @@
 layout: post
 title: ""
 date: 2023-11-01 22:21:59 +00:00
-image: AmbientPhoneBooth.gif
+image: 1-8 AmbientPhoneBooth.gif
 categories: research
 author: "D. Pillis, Ziare Sherman, Hiroshi Ishii"
 ---
