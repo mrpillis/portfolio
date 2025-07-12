@@ -2,7 +2,7 @@
 layout: post
 title:  ""
 date:   2023-11-01 22:21:59 +00:00
-image: AI_Theatre.gif
+image: 1-2 AI Theatre.gif
 categories: research
 author: "Daniel Pillis*, Pat Pataranutaporn*, Pattie Maes, Misha Sra (2024)"
 ---
