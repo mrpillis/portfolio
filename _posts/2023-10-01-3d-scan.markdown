@@ -6,6 +6,5 @@ image: 3dscan.gif
 categories: research
 author: "D Pillis"
 ---
----
 <blockquote> <p>Experiments in mesh reconstruction for 3D scans
  </p> </blockquote>
