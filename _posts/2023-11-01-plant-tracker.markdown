@@ -2,7 +2,7 @@
 layout: post
 title: ""
 date: 2023-11-01 22:21:59 +00:00
-image: Plant_Tracker.gif
+image: Plant_Tracker_2.gif
 categories: research
 author: "D Pillis"
 ---
