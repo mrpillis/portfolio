@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Jibo Strikes Back"
+title: "Return of the Jibo"
 date: 2023-11-01 22:21:59 +00:00
 image: 1-14 Return of the Jibo 2.gif
 categories: research
 author: "D Pillis"
 ---
-<blockquote> <p>A survery of 3D scanning techniques include photogrammetry, structured light, LiDAR, and depth sensing. Photogrammetry uses overlapping photos to reconstruct geometry. Structured light and LiDAR project patterns or lasers to capture precise depth. Depth cameras like Intel RealSense offer real-time scanning. Each method balances cost, resolution, and suitability for static or dynamic subjects.
+<blockquote> <p>This paper explores the integration of Jibo, a social robot, with generative AI in film-making education. Deployed in college classrooms, Jibo supported creative workflows by helping students write scripts, storyboard, and act in AI-generated films. Using tools like Scratch and real-time rendering systems, students engaged with Jibo as both a character and collaborator. The study documents increased student engagement, emotional bonding, and reduced anxiety, suggesting social robots can enhance AI-assisted learning in creative disciplines. By embodying AI in a personable form, Jibo bridged technical tools with human-centered pedagogy, highlighting new possibilities for interactive storytelling and robot-enhanced virtual production education.
  </p> </blockquote>
 
