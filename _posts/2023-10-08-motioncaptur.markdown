@@ -7,9 +7,8 @@ categories: research
 author: "D Pillis"
 ---
 
-**Depthkit Explorations**  
+**Motion Capture Studies**  
 *D. Pillis*
 *MIT, USA — MIT Media Lab / MIT BCS / MIT Museum / MIT Innovation Initiative*
-<blockquote> <p>A series of explorations using Depthkit and volumetric capture techniques produced a dataset focused on reconstructing embodied presence within architecturally complex spaces. Using these techniques, we generated scenes that are stereo-compatible and suitable for real-time rendering in VR headsets. A survery of 3D scanning techniques include photogrammetry, structured light, LiDAR, and depth sensing. Photogrammetry uses overlapping photos to reconstruct geometry. Structured light and LiDAR project patterns or lasers to capture precise depth. Depth cameras like Intel RealSense offer real-time scanning. Each method balances cost, resolution, and suitability for static or dynamic subjects.
-
+<blockquote> <p>This project explores a range of motion capture experiments focused on retargeting human movement onto 3D characters within VR environments and interactive AI simulations. Using optical systems, depth sensors, and inertial tracking, human motion data was captured and mapped in real time onto digital avatars. These characters were embedded in virtual scenes where users could interact with AI agents driven by conversational models or behavioral scripts. Experiments included gesture-based narrative branching, embodied interaction with virtual characters, and AI-driven scene responses to user movement. The work demonstrates how motion capture enhances immersion, agency, and dynamic storytelling in VR and AI-integrated systems.
  </p> </blockquote>
