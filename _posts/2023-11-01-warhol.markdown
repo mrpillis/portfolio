@@ -6,13 +6,13 @@ image: warhol_1.gif
 categories: research
 author: "D Pillis"
 ---
-**Andy Warhol Project**  
-*D. Pillis*  
-*Carnegie Mellon University Robotics Institute*
+**Andy Warhol's Living Room**  
+*D. Pillis, Andy Warhol Museum Exhibition, curated by Eric Shiner*
 <blockquote>
   <p>
-As part of the Andy Warhol Museum’s “Exposures” series, I created Andy Warhola’s Living Room—a digitally fabricated 3D recreation of Warhol’s childhood home, inspired by his pastel drawing “Living Room.” The installation reimagined Warhol’s memory through archival photos, family input, and digital sculptural techniques. Press:
-2015
+As part of the Andy Warhol Museum’s “Exposures” series, I created Andy Warhola’s Living Room, a digitally fabricated 3D recreation of Warhol’s childhood home, inspired by his pastel drawing “Living Room.” The installation reimagined Warhol’s memory through archival photos, family input, and digital sculptural techniques. 
+    
+Press: 2015
 Pittsburgh City Paper, The Year in Visual Art by Robert Raczka.
 2014
 The Warhol Blog, Andy Warhola’s Living Room
