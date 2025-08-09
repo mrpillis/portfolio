@@ -1,3 +1,77 @@
 ---
 layout: default
 ---
+
+<article class="post h-entry" itemscope itemtype="https://schema.org/BlogPosting">
+  <header class="post-header">
+    {% assign hero = page.header.image | default: page.image %}
+    {% if hero %}
+      <figure class="post-hero">
+        <img src="{{ hero | relative_url }}" alt="{{ page.title | default: site.title | escape }}" itemprop="image">
+      </figure>
+    {% endif %}
+
+    <h1 class="post-title p-name" itemprop="headline">
+      {{ page.title | default: site.title }}
+    </h1>
+
+    <p class="post-meta">
+      {% if page.author %}
+        <span class="post-author p-author h-card" itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span class="p-name" itemprop="name">{{ page.author }}</span>
+        </span>
+        &nbsp;•&nbsp;
+      {% endif %}
+      <time class="dt-published" itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">
+        {{ page.date | date: "%B %-d, %Y" }}
+      </time>
+      {% if page.categories and page.categories.size > 0 %}
+        &nbsp;•&nbsp;<span class="post-categories">
+          {% for c in page.categories %}
+            <a href="{{ '/categories/#' | append: c | relative_url }}">{{ c }}</a>{% unless forloop.last %}, {% endunless %}
+          {% endfor %}
+        </span>
+      {% endif %}
+    </p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <footer class="post-footer">
+    {% if page.tags and page.tags.size > 0 %}
+      <p class="post-tags">
+        Tags:
+        {% for t in page.tags %}
+          <a href="{{ '/tags/#' | append: t | relative_url }}">#{{ t }}</a>{% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+      </p>
+    {% endif %}
+
+    <nav class="post-nav" aria-label="Post navigation">
+      <div class="post-prev">
+        {% if page.previous %}
+          ← <a href="{{ page.previous.url | relative_url }}" rel="prev">{{ page.previous.title }}</a>
+        {% endif %}
+      </div>
+      <div class="post-next" style="text-align:right">
+        {% if page.next %}
+          <a href="{{ page.next.url | relative_url }}" rel="next">{{ page.next.title }}</a> →
+        {% endif %}
+      </div>
+    </nav>
+  </footer>
+
+  <meta itemprop="mainEntityOfPage" content="{{ page.url | absolute_url }}">
+  <meta itemprop="dateModified" content="{{ page.last_modified_at | default: page.date | date_to_xmlschema }}">
+</article>
+
+<style>
+  .post-hero img { width: 100%; height: auto; display: block; border-radius: 8px; }
+  .post-header { margin-bottom: 1.25rem; }
+  .post-title { margin-top: .5rem; margin-bottom: .25rem; }
+  .post-meta { color: #666; font-size: .95rem; }
+  .post-content { line-height: 1.7; }
+  blockquote { border-left: 4px solid #ddd; margin: 1rem 0; padding: .5rem 1rem; color: #555; }
+</style>
