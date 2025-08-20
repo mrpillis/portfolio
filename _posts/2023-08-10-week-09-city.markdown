@@ -6,12 +6,19 @@ image: Blue_Plate_2 (1).gif
 categories: research
 author: "D Pillis"
 ---
-*CMU, Pittsburgh, PA, USA *
-<blockquote>
-  <p>
-Users navigate a 3D environment constructed from public domain animations (1963–1987) representing milestones in early CGI. These fragments form the backdrop for a spatial narrative about digital isolation and communication. Users control the experience via a Leap Motion Controller, which maps their hand gestures onto Catmull’s 1972 3D-rendered hand. The exhibit uses media archaeology techniques—reanimating legacy computing systems and early 3D assets with modern tools—to contextualize the development of digital media. By blending gesture tracking, historical hardware, and reconstructed animations, the project connects the origins of CGI and personal computing to contemporary questions about simulation, embodiment, and digital dependence.
-  </p>
-  <p>
-The exhibit uses media archaeology techniques—reanimating legacy computing systems and early 3D assets with modern tools—to contextualize the development of digital media. By blending gesture tracking, historical hardware, and reconstructed animations, the project connects the origins of CGI and personal computing to contemporary questions about simulation, embodiment, and digital dependence.
-  </p>
+
+*CMU, Pittsburgh, PA, USA*
+
+<blockquote markdown="1">
+
+Users navigate a 3D environment constructed from public domain animations (1963–1987) representing milestones in early CGI. These fragments form the backdrop for a spatial narrative about digital isolation and communication. Users control the experience via a Leap Motion Controller, which maps their hand gestures onto Catmull’s 1972 3D-rendered hand.
+
+---
+
+The exhibit uses media archaeology techniques — reanimating legacy computing systems and early 3D assets with modern tools — to contextualize the development of digital media. By blending gesture tracking, historical hardware, and reconstructed animations, the project connects the origins of CGI and personal computing to contemporary questions about simulation, embodiment, and digital dependence.
+
+---
+
+[**Full Project →**]([https://your-link-here.com](https://www.dpillis.com/the-blue-plate-machine-stops))
+
 </blockquote>
