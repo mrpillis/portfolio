@@ -8,7 +8,7 @@ author: "D Pillis"
 ---
 **Andy Warhol's Living Room**  
 *D. Pillis, Andy Warhol Museum Exhibition, curated by Eric Shiner*
-[Project Page](https://www.dpillis.com/) / [arXiv](#)
+[Project Page](https://www.dpillis.com/) / [arXiv](#)<br><br>
 <blockquote>
   <p>
 As part of the Andy Warhol Museum’s “Exposures” series, I created Andy Warhola’s Living Room, a digitally fabricated 3D recreation of Warhol’s childhood home, inspired by his pastel drawing “Living Room.” The installation reimagined Warhol’s memory through archival photos, family input, and digital sculptural techniques. 
