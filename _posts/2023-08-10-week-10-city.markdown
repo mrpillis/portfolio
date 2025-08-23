@@ -6,7 +6,7 @@ image: City.gif
 categories: research
 author: "D Pillis"
 ---
-*MIT, USA — MIT Media Lab / MIT BCS / MIT Museum / MIT Innovation Initiative*
+*MIT, USA — MIT Media Lab / MIT BCS / MIT Museum / MIT Innovation Initiative*<br><br>
 [Project Page](https://www.dpillis.com/) / [arXiv](#)
 <blockquote>
   <p>
