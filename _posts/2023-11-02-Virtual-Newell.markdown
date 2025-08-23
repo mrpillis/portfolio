@@ -8,6 +8,7 @@ author: "D Pillis"
 ---
 *D. Pillis*
 *CMU, Carnegie Mellons Robotics Institute*
+[Project Page](https://www.dpillis.com/) / [arXiv](#)
 <blockquote>
   <p>
 A full-scale recreation of the offices of influential AI researchers Allen Newell and Herbert Simon, used to create a generative environment where their research is manifested in augmented reality through spatial artificial intelligence. 316,000 documents are integrated as augmented reality objects into a physical set.
