@@ -6,6 +6,6 @@ image: steelcase.gif
 categories: research
 author: "D Pillis"
 ---
+[Project Page](https://www.dpillis.com/) / [arXiv](#)
 <blockquote> <p>Using OpenPose, we analyze multiple subjects human-environment interactions by gathering a dozen camera streams and triangulating the position of each joint.
  </p> </blockquote>
-
