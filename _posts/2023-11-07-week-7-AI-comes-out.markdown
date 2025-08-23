@@ -4,11 +4,11 @@ title:  ""
 date:   2023-11-01 22:21:59 +00:00
 image: 1-11 Coming Out_2.gif
 categories: research
-author: "Daniel Pillis*, Pat Pataranutaporn*, Pattie Maes, Misha Sra (2024)"
+author: "Daniel Pillis, Pat Pataranutaporn, Pattie Maes, Misha Sra (2024)"
 ---
 **AI Comes Out of the Closet: Using AI-Generated Virtual Characters to Help Individuals Practice LGBTQIA+ Advocacy**  
-Daniel Pillis*, Pat Pataranutaporn*, Pattie Maes, Misha Sra  
-*MIT Media Lab / MIT — ACM Conference on Intelligent User Interfaces (2024)*
+Daniel Pillis, Pat Pataranutaporn, Pattie Maes, Misha Sra
+*MIT Media Lab / MIT — ACM Conference on Intelligent User Interfaces (2024)*<br><br>
 [Project Page](https://www.dpillis.com/) / [arXiv](#)
 <blockquote>
   <p>
