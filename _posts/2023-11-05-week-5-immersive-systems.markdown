@@ -6,7 +6,7 @@ image: 1-10 Jefferson Simulation_1.gif
 categories: research
 author: "Daniel Pillis, Hiroshi Ishii, Alaa Algargoosh, Lucy Li, Jean-Baptiste Labrune"
 ---
-*Daniel Pillis, Hiroshi Ishii, Alaa Algargoosh, Lucy Li, Jean-Baptiste Labrune, MIT Media Lab — Tangible Media Group*
+*Daniel Pillis, Hiroshi Ishii, Alaa Algargoosh, Lucy Li, Jean-Baptiste Labrune, MIT Media Lab — Tangible Media Group*<br><br>
 [Project Page](https://www.dpillis.com/) / [arXiv](#)
 <blockquote>
   <p>
