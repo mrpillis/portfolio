@@ -10,6 +10,7 @@ author: "D. Pillis, Ziare Sherman, Hiroshi Ishii"
 **AmbientPhoneBooth**  
 *D. Pillis*
 *MIT, USA — MIT Media Lab / MIT BCS / MIT Museum / MIT Innovation Initiative*
+[Project Page](https://www.dpillis.com/) / [arXiv](#)
 <blockquote>
   <p>
 We rebuild the classic “ambient room” interaction system on a smaller scale, set inside a phone booth. AmbientPhoneBooth was an interactive audio installation that transformed a phone booth into an on-demand spatial audio experience. The system captured auditory memories and recreated spatialized soundscapes with delayed feedback, evoking nostalgia and a sense of temporal presence.
