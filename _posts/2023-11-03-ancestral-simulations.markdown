@@ -7,7 +7,7 @@ categories: research
 author: "D. Pillis, Georine Pierre"
 ---
 **Ancestral Simulations**  
-*D. Pillis, Georine Pierre, City Science Group, MIT Media Lab*
+*D. Pillis, Georine Pierre, City Science Group, MIT Media Lab*<br><br>
 [Project Page](https://www.dpillis.com/) / [arXiv](#)
 <blockquote>
   <p>
