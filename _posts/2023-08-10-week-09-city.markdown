@@ -6,7 +6,7 @@ image: Blue_Plate_2 (1).gif
 categories: research
 author: "D Pillis"
 ---
-*CMU, Pittsburgh, PA, USA*
+*CMU, Pittsburgh, PA, USA*<br><br>
 [Project Page](https://www.dpillis.com/) / [arXiv](#)
 <blockquote>
 <p>
