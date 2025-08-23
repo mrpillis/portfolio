@@ -7,6 +7,7 @@ categories: research
 author: "D Pillis"
 ---
 *CMU, Pittsburgh, PA, USA*
+[Project Page](https://www.dpillis.com/) / [arXiv](#)
 <blockquote>
 <p>
 Users navigate a 3D environment constructed from public domain animations (1963–1987) representing milestones in early CGI. These fragments form the backdrop for a spatial narrative about digital isolation and communication. Users control the experience via a Leap Motion Controller, which maps their hand gestures onto Catmull’s 1972 3D-rendered hand.<br><br>
