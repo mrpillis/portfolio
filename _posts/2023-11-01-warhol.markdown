@@ -7,7 +7,7 @@ categories: research
 author: "D Pillis"
 ---
 **Andy Warhol's Living Room**  
-*D. Pillis, Andy Warhol Museum Exhibition, curated by Eric Shiner*
+*D. Pillis, Andy Warhol Museum Exhibition, curated by Eric Shiner*<br><br>
 [Project Page](https://www.dpillis.com/) / [arXiv](#)<br><br>
 <blockquote>
   <p>
