@@ -9,7 +9,7 @@ author: "D. Pillis, Ziare Sherman, Hiroshi Ishii"
 
 **AmbientPhoneBooth**  
 *D. Pillis*
-*MIT, USA — MIT Media Lab / MIT BCS / MIT Museum / MIT Innovation Initiative*<br><br>
+*MIT, USA — MIT Media Lab / MIT BCS / MIT Museum / MIT Innovation Initiative*<br>
 [Project Page](https://www.dpillis.com/) / [arXiv](#)
 <blockquote>
   <p>
