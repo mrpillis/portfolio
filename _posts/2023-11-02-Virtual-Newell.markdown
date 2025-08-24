@@ -7,7 +7,7 @@ categories: research
 author: "D Pillis"
 ---
 *D. Pillis*
-*CMU, Carnegie Mellons Robotics Institute*
+*CMU, Carnegie Mellons Robotics Institute*<br><br>
 [Project Page](https://www.dpillis.com/) / [arXiv](#)<br><br>
 <blockquote>
   <p>
