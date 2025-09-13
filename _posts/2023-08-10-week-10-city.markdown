@@ -7,9 +7,9 @@ categories: research
 author: "D Pillis"
 ---
 *MIT, USA — MIT Media Lab / MIT BCS / MIT Museum / MIT Innovation Initiative*<br><br>
-[Project Page](https://www.dpillis.com/) / [arXiv](#)
+[Project Page](https://www.dpillis.com/city-of-lostmen) / [arXiv](#)
 <blockquote>
   <p>
-City of Lost Men is a 1950 re-edit of the 1935 sci-fi serial The Lost City, reduced from 12 parts into a fragmented B-movie. This project critically reassembles its 820 cuts into a panoramic grid. 820 film edits were isolated, looped, and arranged into a panoramic grid. A modified stage light housed a camera feeding into a Pepper’s Ghost setup, enabling viewers to isolate and re-edit scenes in real time. The installation allowed the entire film to be viewed simultaneously, transforming passive watching into active narrative reconstruction. Blending cinematic history with virtual reality concepts, the piece offered a spatial, embodied way to critique and reinterpret early sci-fi film structure.
+<i>City of Lost Men</i> is a 1950 re-edit of the 1935 sci-fi serial The Lost City, reduced from 12 parts into a fragmented B-movie. This project critically reassembles its 820 cuts into a panoramic grid. 820 film edits were isolated, looped, and arranged into a panoramic grid. A modified stage light housed a camera feeding into a Pepper’s Ghost setup, enabling viewers to isolate and re-edit scenes in real time. The installation allowed the entire film to be viewed simultaneously, transforming passive watching into active narrative reconstruction. Blending cinematic history with virtual reality concepts, the piece offered a spatial, embodied way to critique and reinterpret early sci-fi film structure.
   </p>
 </blockquote>
