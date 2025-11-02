@@ -9,7 +9,7 @@ author: "D. Pillis"
 **Perceive More by Seeing Less: Vision Augmentation Systems**  
 **D. Pillis, Cayden Pierce, Char Stiles, Pawan Sinha, Jan Skerswetat, Seth Riskin, Ken Zolot**  
 *MIT, USA — MIT Media Lab / MIT BCS / MIT Museum / MIT Innovation Initiative*<br>
-[Project Page](https://www.dpillis.com/vision-simulations) / [arXiv](#)
+[Project Page](https://www.dpillis.com/home/vision-simulations) / [arXiv](#)
 <blockquote>
   <p>
 We developed a series of vision augmentation systems using the Varjo XR-3 mixed-reality pass-through headset. These systems augment human vision in real time by applying live spatial frequency filters to the visual input.
