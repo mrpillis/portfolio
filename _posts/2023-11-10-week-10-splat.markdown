@@ -6,6 +6,6 @@ image: Splat_2 (2).gif
 categories: research
 author: "D Pillis"
 ---
-[Project Page](https://www.dpillis.com/) / [arXiv](#)
+[Project Page](https://www.dpillis.com/220-jefferson-simulation) / [arXiv](#)
 <blockquote> <p>Reconstruction of memories and complex personal spaces using gaussian splatting
  </p> </blockquote>
