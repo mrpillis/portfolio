@@ -6,7 +6,7 @@ image: Media Lab Memory.gif
 categories: research
 author: "D Pillis"
 ---
-**Depthkit Explorations**  
+**Media Lab Memory Project**  
 *D. Pillis*
 *MIT, USA — MIT Media Lab / MIT BCS / MIT Museum / MIT Innovation Initiative*<br><br>
 [Project Page](https://www.dpillis.com/holo-booth) / [arXiv](#)
