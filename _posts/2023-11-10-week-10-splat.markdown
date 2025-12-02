@@ -6,6 +6,6 @@ image: Splat_2 (2).gif
 categories: research
 author: "D Pillis"
 ---
-[Project Page](https://www.dpillis.com/220-jefferson-simulation) / [arXiv](#)
+[Project Page](https://www.dpillis.com/220-jefferson-simulation) / [arXiv](https://dspace.mit.edu/handle/1721.1/157709)
 <blockquote> <p>A study exploring interaction with memory reconstructions and complex personal spaces using gaussian splatting paired with sensory stimuli. Using a dataset of object-specific 3D scans, home movies rendered in depth, and personal anecdotal data, we built digital twins to explore the therapeutic potential of AI-driven autobiographical simulations, with the goal of aligning an individual’s sensory experience with generative models by fusing multi-modal data. Our user study of n=16 family members showed combining sensory stimuli with gaussian splats enhanced memory vividness. Future work would lead to dynamically generated world modeling, providing users with personal multi-sensory experiences on demand.
  </p> </blockquote>
