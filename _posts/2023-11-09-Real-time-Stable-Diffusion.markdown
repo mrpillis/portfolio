@@ -6,7 +6,7 @@ image: Virtual_Production.gif
 categories: research
 author: "Daniel Pillis"
 ---
-[Project Page](https://www.dpillis.com/live-cinema-simulator) / [arXiv](#) / [Presentation](https://dac.siggraph.org/sparks/2025-03-ai-and-artistic-autonomy)
+[Project Page](https://www.dpillis.com/live-cinema-simulator) / [arXiv](https://www.media.mit.edu/galleries/best-presentation-at-the-generative-ai-for-design-workshop-2025/) / [Presentation](https://dac.siggraph.org/sparks/2025-03-ai-and-artistic-autonomy)
 <blockquote>
   <p>
 This project integrates real-time Stable Diffusion into TouchDesigner for dynamic virtual production. Using a high-res LED wall, we explore how generative AI enhances set design, props, and storytelling. Our case studies show how AI streamlines workflows, enabling rapid, cost-effective prototyping and immersive environments for in-camera VFX and filmmaking.
