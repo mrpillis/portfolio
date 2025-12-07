@@ -4,7 +4,7 @@ title: "Towards Temporal Telepresence & Multisensory Spatial Intelligence: Recon
 date: 2023-11-01 22:21:59 +00:00
 image: 1-10 Jefferson Simulation_1.gif
 categories: research
-author: "Daniel Pillis, Hiroshi Ishii, Alaa Algargoosh, Lucy Li, Jean-Baptiste Labrune"
+author: "Daniel Pillis"
 ---
 *Daniel Pillis, Hiroshi Ishii, Alaa Algargoosh, Lucy Li, Jean-Baptiste Labrune, MIT Media Lab — Tangible Media Group*<br><br>
 [Project Page](https://www.dpillis.com/) / [arXiv](https://ieeexplore.ieee.org/document/10972379)
