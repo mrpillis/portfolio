@@ -6,6 +6,6 @@ image: steelcase.gif
 categories: research
 author: "D Pillis"
 ---
-[Project Page](https://www.dpillis.com/stealcase-study) / [arXiv](https://www.steelcase.com/education-featured-projects/)
+[Project Page](https://www.dpillis.com/stealcase-study) / [Steelcase Project](https://www.steelcase.com/education-featured-projects/)
 <blockquote> <p>Using OpenPose, we analyze multiple subjects human-environment interactions by gathering a dozen camera streams and triangulating the position of each joint.
  </p> </blockquote>
