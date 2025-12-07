@@ -7,7 +7,7 @@ categories: research
 author: "D Pillis"
 ---
 
-**Please Take me with you**  
+**Virtual Newell Simon Simulation**  
 Daniel Pillis, Chris Atkeson  
 *Carnegie Mellon University — Robotics Institute*
 [Project Page](https://www.dpillis.com/tmg-archive) / [arXiv](#)
