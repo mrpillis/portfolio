@@ -11,7 +11,7 @@ author: "D Pillis"
 [Project Page](https://www.dpillis.com/andy-warhola-living) / [arXiv](https://www.warhol.org/exhibition/exposures-daniel-pillas-andy-warholas-living-room/)<br><br>
 <blockquote>
   <p>
-As part of the Andy Warhol Museum’s “Exposures” series, I created Andy Warhola’s Living Room, a digitally fabricated 3D recreation of Warhol’s childhood home, inspired by his pastel drawing “Living Room.” The installation reimagined Warhol’s memory through archival photos, family input, and digital sculptural techniques. 
+As part of the Andy Warhol Museum’s “Exposures” series, I created Andy Warhola’s Living Room, a digitally fabricated 3D recreation of Warhol’s childhood home, inspired by his pastel drawing “Living Room.” The installation reimagined Warhol’s memory through archival photos, family input, and digital fabrication technologies. A study on what constitutes an individual, this archival reconstruction used personal data to create tangible digital simulations of the past. 
   </p>
 Press: 2015, Pittsburgh City Paper, The Year in Visual Art by Robert Raczka.
 2014, The Warhol Blog, Andy Warhola’s Living Room
