@@ -8,6 +8,6 @@ author: "D Pillis"
 ---
 **IDEO Emerging Technologies**  
 *D. Pillis, MIT, USA — MIT Media Lab / MIT BCS / MIT Museum / MIT Innovation Initiative*<br><br>
-[Project Page](https://www.dpillis.com/ideo-simulation-room) / [arXiv](#)
+[Project Page](https://www.dpillis.com/ideo-simulation-room) / [Article](https://www.ideo.com/emtech-courageous-futures)
 <blockquote> <p>This study of ergnomics explores how immersive office design impacts cognitive and emotional states. Participants were prompted to read Sherry Turkle's Alone Together while wearing a VR headset in varying postures; seated, reclined, and in standing, within dynamic, projection-mapped and audio enhanced interiors developed at IDEO. Lighting, visuals, scents and acoustic elements adapt in real-time to user interaction. The project investigates how sensory elements influence neural activity, comfort, and focus. This research bridges spatial computing, wellness technology, and embodied interaction for applications in health, workplace design, and multi-sensory extended reality.
  </p> </blockquote>
