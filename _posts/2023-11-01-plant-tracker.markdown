@@ -7,7 +7,7 @@ categories: research
 author: "D Pillis"
 ---
 **Plant Sonification: A Multimodal Imaging System for Capturing and Translating Pepper Plant Growth into Sound**  
-*D. Pillis, Virgina Tech ICAT; Jia-Bin Huang, PhD, Virginia Tech, Department of Electrical & Computer Engineering; Bingyu Zhao, PhD, Virginia Tech, Department of Horticulture*
+*D. Pillis, Virgina Tech, ICAT; Jia-Bin Huang, PhD, Virginia Tech, Department of Electrical & Computer Engineering; Bingyu Zhao, PhD, Virginia Tech, Department of Horticulture*
 [Project Page](https://www.dpillis.com/dancing-plants) / [arXiv](https://news.vt.edu/articles/2020/08/cals-sound-of-movement.html)
 <blockquote>
   <p>
