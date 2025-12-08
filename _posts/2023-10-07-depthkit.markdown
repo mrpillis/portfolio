@@ -6,8 +6,8 @@ image: Pre-comp 3_1.gif
 categories: research
 author: "D Pillis"
 ---
-**Depthkit Explorations**  
-*D. Pillis, MIT, USA — MIT Media Lab / MIT BCS / MIT Museum / MIT Innovation Initiative*
+**Nao Animation Programming**  
+*D. Pillis, CMU, Carnegie Mellon Robotics Institute*
 [Project Page](https://www.dpillis.com/) / [arXiv](#)
-<blockquote> <p>A
+<blockquote> <p>A series of physical AI animations using the Aldebarran Nao robot, designed to create scenarios of engagment with users to imitate social persuasion behaviors using a humanoid robot. 
  </p> </blockquote>
