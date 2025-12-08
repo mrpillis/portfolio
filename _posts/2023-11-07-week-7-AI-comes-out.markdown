@@ -12,6 +12,6 @@ Daniel Pillis, Pat Pataranutaporn, Pattie Maes, Misha Sra
 [Project Page](https://www.dpillis.com/ai-comes-out) / [arXiv](https://dl.acm.org/doi/10.1145/3640543.3645213)
 <blockquote>
   <p>
-This paper presents an online simulation using OpenAI's API to drive motion-captured virtual characters in conversations about LGBTQIA+ experiences, particularly around “coming out.” The study, involving 307 users, explores how these AI-generated characters influence user empathy, confidence, and advocacy through interactive, text-based dialogues paired with visual representation. 
+This paper presents an online simulation using OpenAI's API to drive motion-captured virtual characters in conversations about LGBTQIA+ experiences, particularly around the LGBTQ+ tradition of “coming out.” The study, involving 307 users, explores how these AI-generated characters influence user empathy, confidence, and ultimately, advocacy through interactive, text-based dialogues paired with visual representation. 
   </p>
 </blockquote>
