@@ -6,11 +6,6 @@ image: 1-19 Virtual Newell_2.gif
 categories: research
 author: "D Pillis"
 ---
-*D. Pillis*
-*CMU, Carnegie Mellons Robotics Institute*<br><br>
-[Project Page](https://www.dpillis.com/virtual-newell) / [arXiv](#)<br>
-<blockquote>
-  <p>
-A full-scale recreation of the offices of influential AI researchers Allen Newell and Herbert Simon, used to create a generative environment where their research is manifested in augmented reality through spatial artificial intelligence. 316,000 documents are integrated as augmented reality objects into a physical set.
-  </p>
-</blockquote>
+[Project Page](https://www.dpillis.com/) <br><br>
+<blockquote> <p>A series of 3D scans of human subjects using the Lenscloud scanner, capturing high-resolution 360-degree scans of human bodies and large objects using 120 synchronized cameras. We produce two sets of images per scan; one for geometry and one for texture—and allows quick review of captured data within minutes. The system is reconfigurable to fit various assets and supports applications in AR/VR, digital fabrication, and visualization. Processing was done via a custom retopologization pipeline to create low poly portable assets preserving a high level of detail.
+ </p> </blockquote>
