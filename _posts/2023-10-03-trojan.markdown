@@ -9,6 +9,6 @@ author: "D Pillis"
 **Ivan Sutherland's Trojan Cockroach**  
 *D. Pillis, MIT, USA — MIT Media Lab / MIT BCS / MIT Museum / MIT Innovation Initiative*
 [Project Page]((https://www.dpillis.com/ivan-sutherland-trojan-cockroach)) / [arXiv](#)
-<blockquote> <p>A collaboration with Ivan Sutherland and the Robotics Institute at Carnegie Mellon to recreate his historic projects. The mechanics of multiple important projects in the history of walking machines are recreated in a simulation environment. 
+<blockquote> <p>A collaboration with Ivan Sutherland and the Robotics Institute at Carnegie Mellon to recreate his historic projects. The mechanics of multiple important projects in the history of walking machines are recreated in a simulation environment, desgined to enable a Sutherland Simulation by doing a thorough analysis of his history and identity and recreating elements virtually. 
  </p> </blockquote>
 
