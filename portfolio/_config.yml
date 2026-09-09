@@ -1,0 +1,25 @@
+title: Daniel Pillis
+description: "Daniel Pillis — Assistant Professor at Emerson College and Director of the Human Interaction Simulation Lab. XR, memory, social robots, and virtual production."
+author: Daniel Pillis
+url: "https://mrpillis.github.io"
+baseurl: "/portfolio"          # set to "" if you serve from a custom domain root
+google_analytics: G-E00L9PT3V9  # remove this line to drop analytics
+
+links:
+  email: https://mailhide.io/e/lCqh3Bhy
+  github: https://github.com/mrpillis/
+  linkedin: https://www.linkedin.com/in/pillis/
+  website: https://www.dpillis.com
+
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - node_modules
+  - tools
+  - _archive

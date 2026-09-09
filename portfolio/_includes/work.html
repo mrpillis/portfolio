@@ -1,0 +1,28 @@
+{%- comment -%} Renders one project row. Pass `p` (project) and `video` (true/false). {%- endcomment -%}
+<article class="work">
+  <div class="media">
+    {%- if video %}
+    <video data-src="{{ site.baseurl }}/assets/media/{{ p.media }}.mp4" poster="{{ site.baseurl }}/assets/media/{{ p.media }}.webp" muted loop playsinline preload="none" width="640" height="480" aria-label="{{ p.title | escape }}"></video>
+    {%- else %}
+    <img src="{{ site.baseurl }}/assets/media/{{ p.media }}.webp" alt="" loading="lazy" decoding="async" width="640" height="480">
+    {%- endif %}
+  </div>
+  <div>
+    <h3>{% if p.links.website %}<a href="{{ p.links.website }}" style="color:inherit">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h3>
+    <div class="authors">{{ p.authors }}</div>
+    <div class="venue">
+      <span class="tag">{{ p.venue }} {{ p.year }}</span>{% if p.note %}{{ p.note }}, {% endif %}{{ p.affiliation }}
+    </div>
+    {%- if p.links.size > 0 %}
+    <div class="links">
+      {%- if p.links.website %}<a href="{{ p.links.website }}">Project page</a>{% endif %}
+      {%- if p.links.paper %}<a href="{{ p.links.paper }}">Paper</a>{% endif %}
+      {%- if p.links.code %}<a href="{{ p.links.code }}">Code</a>{% endif %}
+      {%- if p.links.video %}<a href="{{ p.links.video }}">Video</a>{% endif %}
+      {%- if p.links.slides %}<a href="{{ p.links.slides }}">Slides</a>{% endif %}
+      {%- if p.links.article %}<a href="{{ p.links.article }}">Article</a>{% endif %}
+    </div>
+    {%- endif %}
+    <p class="desc">{{ p.description }}</p>
+  </div>
+</article>

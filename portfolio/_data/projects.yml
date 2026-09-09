@@ -1,0 +1,356 @@
+# Each entry renders as one row in the Research section.
+# `featured: true` puts it in "Selected work" (with looping video); everything
+# else goes under "Earlier projects" with a still thumbnail.
+# `media` is the basename of assets/media/<media>.mp4 and .webp
+# Links: any of website, paper, code, video, article, press, slides
+
+- title: "Towards Temporal Telepresence & Multisensory Spatial Intelligence: Reconstructing the Human Experience through TeleAbsence"
+  media: teleabsence
+  featured: true
+  authors: "<b>Daniel Pillis</b>, Hiroshi Ishii, Alaa Algargoosh, Lucy Li, Jean-Baptiste Labrune"
+  affiliation: "MIT Media Lab, Tangible Media Group"
+  venue: "IEEE VR"
+  year: 2025
+  links:
+    paper: https://ieeexplore.ieee.org/document/10972379
+  description: >-
+    Ongoing research into how immersive systems can preserve autobiographical
+    memory by combining tangible objects, 3D scans of real environments, and
+    virtual artifacts grounded in lived experience. Designed to support
+    intergenerational memory sharing, these systems enable a form of
+    telepresence across time.
+
+- title: "Temporal Telepresence with Gaussian Splatting"
+  media: gaussian-splat
+  featured: true
+  authors: "<b>Daniel Pillis</b>"
+  affiliation: "MIT Media Lab"
+  venue: "MIT Thesis"
+  year: 2024
+  links:
+    website: https://www.dpillis.com/220-jefferson-simulation
+    paper: https://dspace.mit.edu/handle/1721.1/157709
+  description: >-
+    Interaction with memory reconstructions of complex personal spaces using
+    Gaussian splatting paired with sensory stimuli. From object-level 3D scans,
+    depth-rendered home movies, and personal anecdotes we built digital twins
+    to study the therapeutic potential of autobiographical simulation. In a
+    study of 16 family members, combining sensory stimuli with splats increased
+    memory vividness.
+
+- title: "Real-time Stable Diffusion for Virtual Production: Room-Scale Generative AI towards the Ultimate Display"
+  media: virtual-production
+  featured: true
+  authors: "<b>Daniel Pillis</b>"
+  affiliation: "MIT Media Lab"
+  venue: "MIT GenAI for Design Workshop"
+  year: 2025
+  note: "Best Presentation"
+  links:
+    website: https://www.dpillis.com/live-cinema-simulator
+    article: https://www.media.mit.edu/galleries/best-presentation-at-the-generative-ai-for-design-workshop-2025/
+    video: https://dac.siggraph.org/sparks/2025-03-ai-and-artistic-autonomy
+  description: >-
+    Real-time Stable Diffusion integrated into TouchDesigner and driven onto a
+    high-resolution LED wall for dynamic virtual production. Case studies show
+    how generative AI accelerates set design, props, and storytelling for
+    in-camera VFX.
+
+- title: "Perceive More by Seeing Less: Vision Augmentation Systems"
+  media: vision-augmentation
+  featured: true
+  authors: "<b>Daniel Pillis</b>, Pawan Sinha, Cayden Pierce, Ken Zolot, Seth Riskin, Yuriy Reznik"
+  affiliation: "Emerson College, MIT, RLE at MIT, Mentra"
+  venue: "ACM SAP"
+  year: 2026
+  links:
+    website: https://www.dpillis.com/home/vision-simulations
+    paper: https://drive.google.com/file/d/1oJNoeiF320VqGavFst4igESFtAtLHnM3/view?usp=sharing
+  description: >-
+    Diminished-reality systems that apply live spatial-frequency filters to
+    mixed-reality pass-through video. Selectively removing or enhancing
+    frequency bands alters perception in real time, with roots in vision
+    rehabilitation and applications in attention, accessibility, and cognitive
+    enhancement.
+
+- title: "AI Comes Out of the Closet: Using AI-Generated Virtual Characters to Help Individuals Practice LGBTQIA+ Advocacy"
+  media: ai-comes-out
+  featured: true
+  authors: "<b>Daniel Pillis</b>, Pat Pataranutaporn, Pattie Maes, Misha Sra"
+  affiliation: "MIT Media Lab"
+  venue: "ACM IUI"
+  year: 2024
+  links:
+    website: https://www.dpillis.com/ai-comes-out
+    paper: https://dl.acm.org/doi/10.1145/3640543.3645213
+  description: >-
+    An online simulation in which large-language-model-driven, motion-captured
+    virtual characters hold conversations about LGBTQIA+ experiences,
+    particularly coming out. A study with 307 participants examines how these
+    characters affect empathy, confidence, and advocacy.
+
+- title: "AI Theatre: Interactive Conversational Interfaces with Virtual Agents Can Increase Confidence and Self-Efficacy in Devising Solutions for Interpersonal Conflict"
+  media: ai-theatre
+  featured: true
+  authors: "<b>Daniel Pillis</b>*, Pat Pataranutaporn*, Pattie Maes, Misha Sra"
+  affiliation: "MIT Media Lab"
+  venue: "Preprint"
+  year: 2024
+  links:
+    website: https://www.dpillis.com/ai-theatre
+  description: >-
+    Inspired by Augusto Boal's theater as a tool for change, AI Theatre uses
+    multi-agent conversations with AI-driven characters to simulate
+    interpersonal conflict so people can rehearse resolution strategies. A
+    240-participant study showed increased confidence and skill in managing
+    conflict.
+
+- title: "Return of the Jibo: Social Robots and Generative AI in Film-Making Education"
+  media: return-of-the-jibo
+  featured: true
+  authors: "<b>Daniel Pillis</b>, Jon Ferguson"
+  affiliation: "MIT Media Lab"
+  venue: "MIT DSpace"
+  year: 2025
+  links:
+    website: https://www.dpillis.com/return-of-the-jibo
+    paper: https://dspace.mit.edu/handle/1721.1/163137
+    video: https://www.youtube.com/watch?v=jYrwAUo7rjw
+  description: >-
+    Jibo, a social robot, deployed in college classrooms as both character and
+    collaborator: helping students write scripts, storyboard, and act in
+    AI-generated films. The study documents higher engagement, emotional
+    bonding, and reduced anxiety in AI-assisted creative learning.
+
+- title: "Media Lab Memory Project"
+  media: media-lab-memory
+  featured: true
+  authors: "<b>Daniel Pillis</b>"
+  affiliation: "MIT Media Lab"
+  venue: "Exhibition"
+  year: 2025
+  links:
+    website: https://www.dpillis.com/media-lab-metaverse
+    slides: https://www.canva.com/design/DAGqn4WvEW8/UZoEQhZdme36zJW_QPMjzQ/view
+  description: >-
+    An online and augmented-reality archive of MIT Media Lab history built on
+    an interactive three.js model of the E14 and E15 buildings. Alumni
+    memories, media, and archival material are mapped throughout the physical
+    Lab, developed for its 40th anniversary.
+
+# ---------------------------------------------------------------- earlier work
+
+- title: "Human-Material Interaction for Expression, Performance, and Remembering"
+  media: human-material
+  authors: "Hiroshi Ishii, Ozgun Kilic Afsar, Wedyan Babatain, Cathy Fang, Jack Forman, Sarah Nicita, <b>Daniel Pillis</b>, Lingyan Yang, Jean-Baptiste Labrune"
+  affiliation: "MIT Media Lab, Tangible Media Group"
+  venue: "CHI Workshop"
+  year: 2023
+  links:
+    website: https://www.dpillis.com/human-material-interaction
+    paper: https://www.scribd.com/document/797644250/Human-MaterialInteractionforExpression-Performance-andRemembering
+  description: >-
+    An overview of Tangible Media Group work that makes digital information
+    physical, pursuing a post-pixel future of embodied interaction across
+    expression, performance, and remembering.
+
+- title: "AmbientPhoneBooth"
+  media: ambient-phonebooth
+  authors: "<b>Daniel Pillis</b>, Ziare Sherman, Hiroshi Ishii"
+  affiliation: "MIT Media Lab"
+  venue: "Installation"
+  year: 2023
+  links:
+    website: https://www.dpillis.com/ambient-phonebooth
+    paper: https://www.scribd.com/document/797644250/Human-MaterialInteractionforExpression-Performance-andRemembering
+  description: >-
+    The classic ambient-room interaction system rebuilt inside a phone booth.
+    Dialing a number cues a spatialized, vibrotactile soundscape tied to a
+    memory, evoking a sense of being together with someone in a past place.
+
+- title: "Ancestral Simulations"
+  media: ancestral-simulations
+  authors: "<b>Daniel Pillis</b>, Georine Pierre"
+  affiliation: "MIT Media Lab, City Science"
+  venue: "Installation"
+  year: 2023
+  links:
+    website: https://www.dpillis.com/ancestral-simulations
+    article: https://www.media.mit.edu/projects/ancestral-storytelling-movement-and-memory/overview/
+  description: >-
+    An interactive motion-capture installation using ancestral storytelling and
+    Haitian folklore dance to explore "ancestor simulations." Participants
+    layer movement and memory over recorded rituals via a Kinect Azure.
+
+- title: "IDEO Emerging Technologies: Immersive Office Study"
+  media: ideo
+  authors: "<b>Daniel Pillis</b>"
+  affiliation: "MIT Media Lab, IDEO"
+  venue: "Study"
+  year: 2023
+  links:
+    website: https://www.dpillis.com/ideo-simulation-room
+    article: https://www.ideo.com/emtech-courageous-futures
+  description: >-
+    How immersive office design affects cognitive and emotional state.
+    Participants read in VR across seated, reclined, and standing postures
+    inside projection-mapped interiors at IDEO whose light, visuals, scent, and
+    sound adapt in real time.
+
+- title: "Virtual Newell Simon Simulation"
+  media: virtual-newell
+  authors: "<b>Daniel Pillis</b>, Chris Atkeson"
+  affiliation: "Carnegie Mellon University, Robotics Institute"
+  venue: "Installation"
+  year: 2018
+  links:
+    website: https://www.dpillis.com/virtual-newell
+  description: >-
+    A full-scale recreation of the offices of Allen Newell and Herbert Simon,
+    where 316,000 archival documents are integrated as augmented-reality
+    objects into a physical set.
+
+- title: "Plant Sonification: Capturing and Translating Pepper Plant Growth into Sound"
+  media: plant-sonification
+  authors: "<b>Daniel Pillis</b>, Jia-Bin Huang, Bingyu Zhao"
+  affiliation: "Virginia Tech, ICAT"
+  venue: "Research"
+  year: 2020
+  links:
+    website: https://www.dpillis.com/dancing-plants
+    article: https://news.vt.edu/articles/2020/08/cals-sound-of-movement.html
+  description: >-
+    A multi-camera imaging system captures pepper plant growth under
+    controlled light, producing a multimodal dataset of plant movement for
+    sonification and for learning the relationship between lighting and
+    growth.
+
+- title: "Ivan Sutherland's Trojan Cockroach"
+  media: trojan-cockroach
+  authors: "<b>Daniel Pillis</b>"
+  affiliation: "Carnegie Mellon University, Robotics Institute"
+  venue: "Exhibition"
+  year: 2017
+  links:
+    website: https://www.dpillis.com/ivan-sutherland-trojan-cockroach
+    article: https://www.library.cmu.edu/about/news/2017-03/exhibit-trojan-cockroach
+  description: >-
+    A collaboration with Ivan Sutherland to recreate his historic walking
+    machines. Their mechanics are rebuilt in simulation as part of a larger
+    project reconstructing Sutherland's work and identity virtually.
+
+- title: "Motion Capture Studies"
+  media: motion-capture
+  authors: "<b>Daniel Pillis</b>"
+  affiliation: "Carnegie Mellon University, Robotics Institute"
+  venue: "Research"
+  year: 2017
+  links:
+    website: https://www.dpillis.com/motion-capture
+  description: >-
+    Experiments retargeting human movement onto 3D characters in VR and
+    AI-driven scenes using optical, depth, and inertial tracking, including
+    gesture-based narrative branching and embodied interaction with virtual
+    agents.
+
+- title: "Nao Animation Programming"
+  media: nao
+  authors: "<b>Daniel Pillis</b>"
+  affiliation: "Carnegie Mellon University, Robotics Institute"
+  venue: "Research"
+  year: 2017
+  links: {}
+  description: >-
+    Physical AI animations for the Aldebaran Nao humanoid, staging scenarios
+    of engagement that imitate social-persuasion behaviors.
+
+- title: "Depthkit Explorations"
+  media: depthkit
+  authors: "<b>Daniel Pillis</b>"
+  affiliation: "MIT Media Lab, MIT BCS"
+  venue: "Research"
+  year: 2023
+  links: {}
+  description: >-
+    Volumetric capture with Depthkit to reconstruct embodied presence in
+    architecturally complex spaces, producing stereo-compatible scenes for
+    real-time VR rendering, alongside a survey of photogrammetry, structured
+    light, LiDAR, and depth-sensing techniques.
+
+- title: "3D Scans"
+  media: 3d-scans
+  authors: "<b>Daniel Pillis</b>"
+  affiliation: "Virginia Tech, ICAT"
+  venue: "Research"
+  year: 2019
+  links: {}
+  description: >-
+    High-resolution 360° scans of people and large objects using the
+    Lenscloud scanner's 120 synchronized cameras, processed through a custom
+    retopology pipeline into lightweight assets for AR/VR and fabrication.
+
+- title: "Steelcase Tracking"
+  media: steelcase
+  authors: "<b>Daniel Pillis</b>"
+  affiliation: "Virginia Tech, ICAT"
+  venue: "Research"
+  year: 2019
+  links:
+    website: https://www.dpillis.com/stealcase-study
+    article: https://www.steelcase.com/education-featured-projects/
+  description: >-
+    Multi-subject human–environment interaction analyzed with OpenPose,
+    triangulating each joint from a dozen synchronized camera streams.
+
+- title: "Andy Warhola's Living Room"
+  media: warhol
+  authors: "<b>Daniel Pillis</b>"
+  affiliation: "The Andy Warhol Museum, curated by Eric Shiner"
+  venue: "Exhibition"
+  year: 2014
+  links:
+    website: https://www.dpillis.com/andy-warhola-living
+    article: https://www.warhol.org/exhibition/exposures-daniel-pillas-andy-warholas-living-room/
+  description: >-
+    For the museum's "Exposures" series, a digitally fabricated 3D recreation
+    of Warhol's childhood home, reconstructed from his pastel drawing "Living
+    Room," archival photos, and family input.
+
+- title: "The Blue Plate Machine Stops"
+  media: blue-plate
+  authors: "<b>Daniel Pillis</b>"
+  affiliation: "Carnegie Mellon University"
+  venue: "Installation"
+  year: 2016
+  links:
+    website: https://www.dpillis.com/the-blue-plate-machine-stops
+  description: >-
+    A 3D environment assembled from public-domain CGI milestones (1963–1987),
+    navigated by hand gestures that are mapped onto Catmull's 1972 rendered
+    hand. A spatial narrative about digital isolation and communication.
+
+- title: "City of Lost Men"
+  media: city-of-lost-men
+  authors: "<b>Daniel Pillis</b>"
+  affiliation: "MIT"
+  venue: "Installation"
+  year: 2022
+  links:
+    website: https://www.dpillis.com/city-of-lostmen
+  description: >-
+    The 820 cuts of a 1950 B-movie re-edit are isolated, looped, and arranged
+    in a panoramic grid. A camera inside a modified stage light feeds a
+    Pepper's Ghost setup so viewers re-edit the film in real time.
+
+- title: "sofDesk"
+  media: sofdesk
+  authors: "<b>Daniel Pillis</b>"
+  affiliation: "MIT Media Lab"
+  venue: "Prototype"
+  year: 2023
+  links:
+    website: https://www.dpillis.com/sofdesk
+  description: >-
+    A multisensory computer that uses scent as an interactive medium. Silicone
+    scent pods release programmed aromas that guide relaxation and focus while
+    the user works at a soft, tactile workspace.

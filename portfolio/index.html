@@ -1,0 +1,57 @@
+---
+layout: default
+---
+<section class="intro" id="top">
+  <div>
+    <p>I direct the Human Interaction Simulation Lab at Emerson College, where we build immersive environments, social robots, and simulations to study how people remember, perform, and connect through technology.</p>
+    <p>My research draws on XR, autobiographical memory, photogrammetry and Gaussian splatting, generative virtual production, and robotics. Before Emerson I was at the <a href="https://www.media.mit.edu/">MIT Media Lab</a>, working with <a href="https://www.media.mit.edu/people/ishii/overview/">Hiroshi Ishii</a> and <a href="https://www.media.mit.edu/people/pattie/overview/">Pattie Maes</a>.</p>
+    <div class="contact">
+      <a href="{{ site.links.email }}">Email</a>
+      <a href="{{ site.links.github }}">GitHub</a>
+      <a href="{{ site.links.linkedin }}">LinkedIn</a>
+      <a href="{{ site.links.website }}">dpillis.com</a>
+    </div>
+  </div>
+  <picture>
+    <img src="{{ site.baseurl }}/assets/images/daniel-pillis.webp" srcset="{{ site.baseurl }}/assets/images/daniel-pillis-360.webp 360w, {{ site.baseurl }}/assets/images/daniel-pillis.webp 720w" sizes="(max-width: 680px) 160px, 220px" width="720" height="720" alt="Daniel Pillis" fetchpriority="high">
+  </picture>
+</section>
+
+<section id="research">
+  <h2>Selected work</h2>
+  <p class="lede">Papers, installations, and systems. More at <a href="{{ site.links.website }}">dpillis.com</a>.</p>
+  {%- for p in site.data.projects %}{% if p.featured %}{% include work.html p=p video=true %}{% endif %}{% endfor %}
+
+  <h2 style="margin-top:40px">Earlier projects</h2>
+  <div class="compact">
+  {%- for p in site.data.projects %}{% unless p.featured %}{% include work.html p=p video=false %}{% endunless %}{% endfor %}
+  </div>
+</section>
+
+<section id="news">
+  <h2>News</h2>
+  <ul class="news" data-collapsed="true">
+    {%- for n in site.data.news %}
+    <li><time>{{ n.date }}</time><span>{{ n.text }}</span></li>
+    {%- endfor %}
+  </ul>
+  {%- if site.data.news.size > 6 %}
+  <button class="news-toggle" type="button" aria-expanded="false">Show all news</button>
+  {%- endif %}
+</section>
+
+<section id="teaching">
+  <h2>Teaching</h2>
+  <ul class="teaching">
+    {%- for t in site.data.teaching %}
+    <li>{% if t.url %}<a href="{{ t.url }}">{{ t.course }}</a>{% else %}{{ t.course }}{% endif %}<div class="meta">{{ t.school }}{% if t.term != "" %}, {{ t.term }}{% endif %}</div></li>
+    {%- endfor %}
+  </ul>
+</section>
+
+<section id="bio" class="bio">
+  <h2>Bio</h2>
+  <p>Daniel Pillis is an Assistant Professor at Emerson College and Director of the Human Interaction Simulation Lab. His work explores how interactions with AI-rich media environments shape human experience and cognition, with a focus on presence, memory, and how both can be extended through digital interaction.</p>
+  <p>He was previously a research assistant at the MIT Media Lab, working on human–computer interaction with Hiroshi Ishii in the Tangible Media Group and with Pattie Maes in Fluid Interfaces. Before MIT he was mentored by Ivan Sutherland at <a href="https://www.cmu.edu/">Carnegie Mellon University</a>, where he was a researcher in residence in Chris Atkeson's soft robotics laboratory at the Robotics Institute and a teaching assistant for Jessica Hodgins.</p>
+  <p>From 2018 to 2020 he was a Research Assistant Professor of Immersive Environments at <a href="https://www.vt.edu/">Virginia Tech</a>'s <a href="https://icat.vt.edu/">Institute for Creativity, Arts &amp; Technology</a>, designing large-scale immersive environments and studies for the <a href="https://icat.vt.edu/studios/mac/the-cube.html">Cube</a>, a cyclorama with 4K projection, 134-channel spatial audio, and optical motion tracking. There he also applied <a href="https://github.com/CMU-Perceptual-Computing-Lab/openpose">OpenPose</a> to room-scale multi-person pose estimation, built plant-tracking systems, and developed demos for SIGGRAPH 2018–2020. He has taught art and engineering courses at Virginia Tech and Princeton University and has exhibited widely on projects that explore human experience and storytelling with technology.</p>
+</section>
