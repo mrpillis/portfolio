@@ -10,7 +10,7 @@ and three YAML data files.
 | Projects (Selected work / Earlier projects) | `_data/projects.yml` — `featured: true` puts it in Selected work; `page:` links to a project page |
 | Project pages (Nerfies-style) | `projects/<slug>.html` — all content is front matter; figures go in `assets/projects/<slug>/` |
 | News | `_data/news.yml` — newest first; the page shows six and folds the rest |
-| Teaching | `_data/teaching.yml` |
+| Teaching, talks, exhibitions, service, press, awards | `_data/teaching.yml`, `talks.yml`, `exhibitions.yml`, `service.yml`, `press.yml`, `awards.yml` |
 | Intro text, bio | `index.html` |
 | Header role line, nav, footer | `_layouts/default.html` |
 | Contact links, analytics ID, baseurl | `_config.yml` |

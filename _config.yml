@@ -5,6 +5,13 @@ url: "https://mrpillis.github.io"
 baseurl: "/portfolio"          # set to "" if you serve from a custom domain root
 google_analytics: G-E00L9PT3V9  # remove this line to drop analytics
 
+# Once Wix is moved to a subdomain, change these to e.g. https://archive.dpillis.com/bio
+wix_links:
+  - { label: "Full bio", url: "https://www.dpillis.com/bio" }
+  - { label: "CV", url: "https://www.dpillis.com/cv" }
+  - { label: "Teaching portfolio", url: "https://www.dpillis.com/courses" }
+  - { label: "Visual portfolio", url: "https://www.dpillis.com/" }
+
 links:
   email: https://mailhide.io/e/lCqh3Bhy
   github: https://github.com/mrpillis/

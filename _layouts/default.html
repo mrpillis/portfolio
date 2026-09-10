@@ -49,6 +49,8 @@
     .site-nav { display: flex; flex-wrap: wrap; gap: 4px 20px; margin-top: 22px; padding-bottom: 20px; border-bottom: 1px solid var(--rule); }
     .site-nav a { color: var(--text); font-weight: 500; }
     .site-nav a:hover { color: var(--link); text-decoration: none; }
+    .site-nav a.ext { color: var(--muted); font-weight: 400; }
+    .nav-split { width: 1px; background: var(--rule); align-self: stretch; margin: 0 4px; }
 
     /* Sections --------------------------------------------------------- */
     section { padding: 40px 0 8px; scroll-margin-top: 24px; }
@@ -81,20 +83,23 @@
     .compact .work .desc { font-size: 0.92rem; }
     .compact .work .venue { margin: 4px 0 6px; }
 
-    /* News ------------------------------------------------------------- */
-    .news { list-style: none; margin: 0; padding: 0; }
-    .news li { display: grid; grid-template-columns: 130px 1fr; gap: 16px; padding: 9px 0; border-top: 1px solid var(--rule); font-size: 0.95rem; }
-    .news li:first-child { border-top: 0; padding-top: 0; }
-    .news time { color: var(--muted); }
-    .news[data-collapsed="true"] li:nth-child(n+7) { display: none; }
-    .news-toggle { margin-top: 12px; background: none; border: 1px solid var(--rule); border-radius: 4px; padding: 6px 12px; font: inherit; font-size: 0.9rem; color: var(--text); cursor: pointer; }
-    .news-toggle:hover { border-color: var(--muted); }
-
-    /* Teaching --------------------------------------------------------- */
-    .teaching { list-style: none; margin: 0; padding: 0; }
-    .teaching li { padding: 10px 0; border-top: 1px solid var(--rule); }
-    .teaching li:first-child { border-top: 0; padding-top: 0; }
-    .teaching .meta { color: var(--muted); font-size: 0.95rem; }
+    /* Dated lists (news, talks, exhibitions, press, awards) ----------- */
+    .dated { list-style: none; margin: 0; padding: 0; }
+    .dated li { display: grid; grid-template-columns: 130px 1fr; gap: 16px; padding: 9px 0; border-top: 1px solid var(--rule); font-size: 0.95rem; }
+    .dated li:first-child { border-top: 0; padding-top: 0; }
+    .dated time { color: var(--muted); }
+    /* CV-style lists (teaching, service, education) ------------------- */
+    .cv { list-style: none; margin: 0; padding: 0; }
+    .cv li { padding: 10px 0; border-top: 1px solid var(--rule); font-size: 0.95rem; }
+    .cv li:first-child { border-top: 0; padding-top: 0; }
+    .cv .meta { color: var(--muted); }
+    .cv .desc { margin: 4px 0 0; color: #333; max-width: 68ch; }
+    .cv.edu { margin-bottom: 20px; }
+    /* Folding --------------------------------------------------------- */
+    .fold[data-collapsed="true"] li.hidden { display: none; }
+    .fold-toggle { margin-top: 12px; background: none; border: 1px solid var(--rule); border-radius: 4px; padding: 6px 12px; font: inherit; font-size: 0.9rem; color: var(--text); cursor: pointer; }
+    .fold-toggle:hover { border-color: var(--muted); }
+    .fold-toggle[hidden] { display: none; }
 
     /* Bio / footer ----------------------------------------------------- */
     .bio p { max-width: 68ch; }
@@ -110,7 +115,7 @@
       .intro img { width: 160px; }
       .work, .compact .work { grid-template-columns: 1fr; gap: 12px; }
       .work .media { max-width: 420px; }
-      .news li { grid-template-columns: 1fr; gap: 2px; }
+      .dated li { grid-template-columns: 1fr; gap: 2px; }
     }
   </style>
 </head>
@@ -123,7 +128,15 @@
         <a href="{{ site.baseurl }}/#research">Research</a>
         <a href="{{ site.baseurl }}/#news">News</a>
         <a href="{{ site.baseurl }}/#teaching">Teaching</a>
+        <a href="{{ site.baseurl }}/#talks">Talks</a>
+        <a href="{{ site.baseurl }}/#exhibitions">Exhibitions</a>
+        <a href="{{ site.baseurl }}/#service">Service</a>
+        <a href="{{ site.baseurl }}/#press">Press</a>
         <a href="{{ site.baseurl }}/#bio">Bio</a>
+        <span class="nav-split" aria-hidden="true"></span>
+        {%- for w in site.wix_links %}
+        <a href="{{ w.url }}" class="ext">{{ w.label }}</a>
+        {%- endfor %}
       </nav>
     </header>
 
@@ -136,13 +149,19 @@
   </div>
 
   <script>
-    var t = document.querySelector('.news-toggle');
-    if (t) t.addEventListener('click', function () {
-      var list = document.querySelector('.news');
-      var open = list.getAttribute('data-collapsed') === 'false';
-      list.setAttribute('data-collapsed', open ? 'true' : 'false');
-      t.textContent = open ? 'Show all news' : 'Show fewer';
-      t.setAttribute('aria-expanded', !open);
+    document.querySelectorAll('.fold').forEach(function (list) {
+      var show = parseInt(list.dataset.show || '6', 10);
+      var items = list.querySelectorAll('li');
+      var btn = list.nextElementSibling;
+      if (items.length <= show) { if (btn) btn.hidden = true; return; }
+      items.forEach(function (li, i) { if (i >= show) li.classList.add('hidden'); });
+      var label = btn.textContent;
+      btn.addEventListener('click', function () {
+        var open = list.dataset.collapsed === 'false';
+        list.dataset.collapsed = open ? 'true' : 'false';
+        btn.textContent = open ? label : 'Show fewer';
+        btn.setAttribute('aria-expanded', !open);
+      });
     });
   </script>
   {% if site.google_analytics %}
