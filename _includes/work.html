@@ -1,12 +1,8 @@
-{%- comment -%} Renders one project row. Pass `p` (project) and `video` (true/false). {%- endcomment -%}
-<article class="work">
-  <div class="media">
-    {%- if video %}
-    <video data-src="{{ site.baseurl }}/assets/media/{{ p.media }}.mp4" poster="{{ site.baseurl }}/assets/media/{{ p.media }}.webp" muted loop playsinline preload="none" width="640" height="480" aria-label="{{ p.title | escape }}"></video>
-    {%- else %}
-    <img src="{{ site.baseurl }}/assets/media/{{ p.media }}.webp" alt="" loading="lazy" decoding="async" width="640" height="480">
-    {%- endif %}
-  </div>
+{%- comment -%} Renders one project row. Pass `p` (project). {%- endcomment -%}
+<article class="work{% unless p.media %} no-media{% endunless %}">
+  {%- if p.media %}
+  <div class="media"><img src="{{ site.baseurl }}/assets/media/{{ p.media }}" alt="" loading="lazy" decoding="async" width="640" height="480"></div>
+  {%- endif %}
   <div>
     <h3>{% if p.links.website %}<a href="{{ p.links.website }}" style="color:inherit">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h3>
     <div class="authors">{{ p.authors }}</div>

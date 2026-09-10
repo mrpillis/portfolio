@@ -16,12 +16,12 @@ and three YAML data files.
 
 ## Adding project media
 
-Don't commit GIFs. Convert them first (needs ffmpeg):
+Don't commit raw GIFs from screen recorders (they run 5–20 MB each). Shrink them first (needs ffmpeg and gifsicle):
 
     tools/convert-media.sh "my clip.gif" my-project
 
-Then reference `media: my-project` in `_data/projects.yml`. A 10 MB GIF becomes
-roughly a 0.5–1.5 MB MP4 plus a ~20 KB poster; videos only download when they
+Then reference `media: my-project.gif` in `_data/projects.yml`. A 10 MB GIF becomes
+roughly 0.5–2.5 MB and still loops like the original; images only download when they
 scroll into view.
 
 ## Running locally

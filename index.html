@@ -19,12 +19,12 @@ layout: default
 
 <section id="research">
   <h2>Selected work</h2>
-  <p class="lede">Papers, installations, and systems. More at <a href="{{ site.links.website }}">dpillis.com</a>.</p>
-  {%- for p in site.data.projects %}{% if p.featured %}{% include work.html p=p video=true %}{% endif %}{% endfor %}
+  <p class="lede">Recent papers, installations, and systems. * denotes equal contribution. More at <a href="{{ site.links.website }}">dpillis.com</a>.</p>
+  {%- for p in site.data.projects %}{% if p.featured %}{% include work.html p=p %}{% endif %}{% endfor %}
 
   <h2 style="margin-top:40px">Earlier projects</h2>
   <div class="compact">
-  {%- for p in site.data.projects %}{% unless p.featured %}{% include work.html p=p video=false %}{% endunless %}{% endfor %}
+  {%- for p in site.data.projects %}{% unless p.featured %}{% include work.html p=p %}{% endunless %}{% endfor %}
   </div>
 </section>
 
