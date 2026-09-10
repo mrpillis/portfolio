@@ -1,0 +1,29 @@
+---
+layout: project
+title: "The Memory Machine: Immersive Reconstruction of Autobiographical Memory using Gaussian Splatting, World Models, and Interactive Agents"
+permalink: /projects/memory-machine/
+tagline: "A five-stage pipeline that turns a personal archive into an editable, immersive memory."
+authors:
+  - { name: "Daniel Pillis", affil: "1,2" }
+  - { name: "et al.", affil: "" }
+affiliations: ["Emerson College", "MIT Media Lab"]
+venue: "IEEE International Symposium on Mixed and Augmented Reality (ISMAR) 2026"
+links: {}
+teaser: projects/memory-machine/pipeline-illustration.webp
+abstract: |
+  <p>We describe a working prototype of a memory machine, a pipeline for immersive memory reconstruction that leverages Gaussian splatting, world models, and AI agents to enable individuals to remember, experience, and interact with representations of their own autobiographical memories. Using the Jefferson Drive Multi-Sensory Memory Dataset, a roughly 4 TB corpus documenting a single-family home across five decades, we demonstrate a pipeline that can be adapted to create personalized authoring environments from an individual's equivalent dataset.</p>
+  <p>We outline a five-stage process: (1) photogrammetric reconstruction paired with 3D Gaussian splatting enables three-dimensional reconstructions of personal spaces; (2) world models support the dynamic reconstruction of spaces from 360-degree photography; (3) an interactive playground allows large-language-model-driven 3D agents to enact scenes from a user's textual input; (4) the environment and agents are composited into a single dynamic immersive experience; and (5) the experience is synthesized through generative image and video models trained on the user's own personal data.</p>
+  <p>The project is developed within the design principles of TeleAbsence, remaining grounded in the traces a person leaves behind and oriented toward poetic interpretations of the past. We situate the work within reminiscence therapy, lifelogging, digital twins, and spatial-memory research, and discuss the ethical questions raised by immersive personal-memory reconstruction.</p>
+figures:
+  - { src: projects/memory-machine/pipeline-splat.webp, caption: "The pipeline on a single room. A 360° panorama captured in the original home (left) seeds world-model generation and Gaussian splatting; the resulting splat recreates the space photorealistically; the scene is then experienced in first person before generative synthesis trained on the user's own media." }
+  - { src: projects/memory-machine/environment.webp, caption: "An example environment populated with an agent, used as the simulation space to recreate a memory." }
+  - { src: projects/memory-machine/stages.webp, caption: "Left to right: the Gaussian splat used as ground truth, a world model generated from the splat, and an LLM-directed 3D agent enacting a typed memory inside the simulated space." }
+  - { src: projects/memory-machine/objects.webp, caption: "A subset of the more than 800 photogrammetry-scanned household objects, individually reconstructed as editable 3D assets and instantiated by the language model to stage specific memories." }
+bibtex: |
+  @inproceedings{pillis2026memorymachine,
+    title     = {The Memory Machine: Immersive Reconstruction of Autobiographical Memory using Gaussian Splatting, World Models, and Interactive Agents},
+    author    = {Pillis, Daniel and others},
+    booktitle = {IEEE International Symposium on Mixed and Augmented Reality (ISMAR)},
+    year      = {2026}
+  }
+---

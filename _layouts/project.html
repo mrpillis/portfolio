@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} – {{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: page.tagline }}">
+  <meta name="author" content="{{ site.author }}">
+  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+  <link rel="icon" href="{{ site.baseurl }}/favicon.ico" sizes="any">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ page.description | default: page.tagline }}">
+  {%- if page.teaser %}<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/{{ page.teaser }}">{% endif %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/vendor/bulma.min.css">
+  <style>
+    /* Adapted from nerfies.github.io/static/css/index.css */
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    .navbar { min-height: 3rem; }
+    .navbar-item.home { color: #363636; font-weight: 600; }
+    .publication-title { line-height: 1.15; overflow-wrap: anywhere; }
+    @media (max-width: 768px) { .publication-title { font-size: 1.6rem !important; } .publication-authors.is-size-5 { font-size: 1.05rem !important; } .publication-venue.is-size-5 { font-size: 1rem !important; } }
+    .publication-authors { margin-top: .5rem; }
+    .publication-authors a { color: hsl(204, 86%, 53%) !important; }
+    .publication-authors a:hover { text-decoration: underline; }
+    .author-block { display: inline-block; }
+    .publication-venue { color: #555; font-weight: 600; margin-top: .75rem; }
+    .publication-awards { color: #ff3860; font-weight: 700; }
+    .publication-links { margin-top: 1rem; }
+    .link-block { display: inline-block; }
+    .link-block a { margin: 5px 3px; }
+    .link-block .icon svg { width: 1em; height: 1em; fill: currentColor; }
+    .teaser .hero-body { padding-top: 0; padding-bottom: 3rem; }
+    .teaser img, .teaser video { width: 100%; height: auto; border-radius: 10px; display: block; }
+    .teaser .subtitle { margin-top: 1.25rem; }
+    figure.fig { margin: 0 0 2.5rem; }
+    figure.fig img { width: 100%; height: auto; border-radius: 8px; display: block; }
+    figure.fig figcaption { color: #555; font-size: .95rem; margin-top: .6rem; text-align: left; }
+    pre { border-radius: 8px; }
+    .footer { padding: 2rem 1.5rem; }
+    .footer .content a { color: #555; }
+  </style>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="container is-max-desktop">
+    <div class="navbar-menu is-active" style="box-shadow:none">
+      <div class="navbar-start">
+        <a class="navbar-item home" href="{{ site.baseurl }}/">&larr; Daniel Pillis</a>
+      </div>
+      <div class="navbar-end">
+        <a class="navbar-item" href="{{ site.baseurl }}/#research">All research</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-2 publication-title">{{ page.title }}</h1>
+
+          <div class="is-size-5 publication-authors">
+            {%- for a in page.authors %}
+            <span class="author-block">{% if a.url %}<a href="{{ a.url }}">{{ a.name }}</a>{% else %}{{ a.name }}{% endif %}{% if a.equal %}*{% endif %}<sup>{{ a.affil }}</sup>{% unless forloop.last %},{% endunless %}</span>
+            {%- endfor %}
+          </div>
+          <div class="is-size-6 publication-authors">
+            {%- for aff in page.affiliations %}
+            <span class="author-block"><sup>{{ forloop.index }}</sup>{{ aff }}{% unless forloop.last %},{% endunless %}</span>
+            {%- endfor %}
+          </div>
+          {%- if page.equal_note %}<div class="is-size-7" style="color:#777;margin-top:.25rem">*{{ page.equal_note }}</div>{% endif %}
+
+          <div class="is-size-5 publication-venue">{{ page.venue }}</div>
+          {%- if page.award %}<div class="is-size-5 publication-awards">{{ page.award }}</div>{% endif %}
+
+          {%- assign l = page.links %}
+          {%- if l %}
+          <div class="publication-links">
+            {%- if l.paper %}<span class="link-block"><a href="{{ l.paper }}" class="button is-normal is-rounded is-dark"><span class="icon"><svg viewBox="0 0 24 24"><path d="M6 2h8l6 6v14H6zM13 3.5V9h5.5zM8 13h8v1.5H8zm0 3h8v1.5H8z"/></svg></span><span>Paper</span></a></span>{% endif %}
+            {%- if l.arxiv %}<span class="link-block"><a href="{{ l.arxiv }}" class="button is-normal is-rounded is-dark"><span class="icon"><svg viewBox="0 0 24 24"><path d="M6 2h8l6 6v14H6zM13 3.5V9h5.5z"/></svg></span><span>arXiv</span></a></span>{% endif %}
+            {%- if l.poster %}<span class="link-block"><a href="{{ l.poster }}" class="button is-normal is-rounded is-dark"><span class="icon"><svg viewBox="0 0 24 24"><path d="M4 3h16v13H4zm2 2v9h12V5zm4 12h4v4h-4z"/></svg></span><span>Poster</span></a></span>{% endif %}
+            {%- if l.video %}<span class="link-block"><a href="{{ l.video }}" class="button is-normal is-rounded is-dark"><span class="icon"><svg viewBox="0 0 24 24"><path d="M4 5h12a2 2 0 0 1 2 2v2.5l4-2.5v10l-4-2.5V17a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z"/></svg></span><span>Video</span></a></span>{% endif %}
+            {%- if l.code %}<span class="link-block"><a href="{{ l.code }}" class="button is-normal is-rounded is-dark"><span class="icon"><svg viewBox="0 0 24 24"><path d="M9.4 16.6 4.8 12l4.6-4.6L8 6l-6 6 6 6zm5.2 0 4.6-4.6-4.6-4.6L16 6l6 6-6 6z"/></svg></span><span>Code</span></a></span>{% endif %}
+            {%- if l.data %}<span class="link-block"><a href="{{ l.data }}" class="button is-normal is-rounded is-dark"><span class="icon"><svg viewBox="0 0 24 24"><path d="M12 3c5 0 8 1.6 8 3.5S17 10 12 10 4 8.4 4 6.5 7 3 12 3zm-8 6.5c0 1.9 3 3.5 8 3.5s8-1.6 8-3.5V13c0 1.9-3 3.5-8 3.5S4 14.9 4 13zm0 5c0 1.9 3 3.5 8 3.5s8-1.6 8-3.5V18c0 1.9-3 3.5-8 3.5S4 19.9 4 18z"/></svg></span><span>Data</span></a></span>{% endif %}
+            {%- if l.website %}<span class="link-block"><a href="{{ l.website }}" class="button is-normal is-rounded is-dark"><span class="icon"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm6.9 9h-3a15 15 0 0 0-1.3-5.4A8 8 0 0 1 18.9 11zM12 4a13 13 0 0 1 2 7h-4a13 13 0 0 1 2-7zM5.1 13h3a15 15 0 0 0 1.3 5.4A8 8 0 0 1 5.1 13zm3-2h-3a8 8 0 0 1 4.3-5.4A15 15 0 0 0 8.1 11zM12 20a13 13 0 0 1-2-7h4a13 13 0 0 1-2 7zm2.6-1.6A15 15 0 0 0 15.9 13h3a8 8 0 0 1-4.3 5.4z"/></svg></span><span>More</span></a></span>{% endif %}
+          </div>
+          {%- endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{%- if page.teaser %}
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      {%- if page.teaser contains ".mp4" %}
+      <video autoplay muted loop playsinline><source src="{{ site.baseurl }}/assets/{{ page.teaser }}" type="video/mp4"></video>
+      {%- else %}
+      <img src="{{ site.baseurl }}/assets/{{ page.teaser }}" alt="">
+      {%- endif %}
+      {%- if page.tagline %}<h2 class="subtitle has-text-centered">{{ page.tagline }}</h2>{% endif %}
+    </div>
+  </div>
+</section>
+{%- endif %}
+
+<section class="section" style="padding-top:1rem">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">{{ page.abstract }}</div>
+      </div>
+    </div>
+
+    {%- if page.youtube %}
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden">
+          <iframe src="https://www.youtube.com/embed/{{ page.youtube }}?rel=0" style="position:absolute;inset:0;width:100%;height:100%" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    {%- endif %}
+
+    {%- if page.figures %}
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        {%- for f in page.figures %}
+        <figure class="fig">
+          <img src="{{ site.baseurl }}/assets/{{ f.src }}" alt="" loading="lazy">
+          <figcaption>{{ f.caption }}</figcaption>
+        </figure>
+        {%- endfor %}
+      </div>
+    </div>
+    {%- endif %}
+
+    {%- if content != "" %}
+    <div class="columns is-centered">
+      <div class="column is-four-fifths content">{{ content }}</div>
+    </div>
+    {%- endif %}
+  </div>
+</section>
+
+{%- if page.bibtex %}
+<section class="section" id="BibTeX" style="padding-top:0">
+  <div class="container is-max-desktop content">
+    <h2 class="title is-4">BibTeX</h2>
+    <pre><code>{{ page.bibtex }}</code></pre>
+  </div>
+</section>
+{%- endif %}
+
+<footer class="footer">
+  <div class="container is-max-desktop">
+    <div class="content has-text-centered is-size-7">
+      <p>© {{ site.time | date: "%Y" }} Daniel Pillis · <a href="{{ site.baseurl }}/">Home</a> · Page layout adapted from the <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a> template (CC BY-SA 4.0).</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

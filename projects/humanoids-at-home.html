@@ -1,0 +1,27 @@
+---
+layout: project
+title: "Humanoids at Home: Autobiographical Semantic Maps for Humanoid Motion from Memory in a Reconstructed Domestic Environment"
+permalink: /projects/humanoids-at-home/
+tagline: "Semantic maps that know not just what an object is, but what it means to the people who lived with it."
+authors:
+  - { name: "Daniel Pillis", affil: "1" }
+  - { name: "et al.", affil: "" }
+affiliations: ["Emerson College"]
+venue: "Semantic-Aware Mapping and Navigation (SeMaNa) Workshop, IEEE/RSJ IROS 2026"
+links: {}
+teaser: projects/humanoids-at-home/agent-exploration.webp
+abstract: |
+  <p>Semantic maps for domestic robots typically encode what an object is, rarely what it means to the people who live in the environment it navigates. We present a three-stage pipeline built on the Jefferson Drive Dataset, a high-fidelity reconstruction of a single-family home occupied by the same residents for over fifty years.</p>
+  <p>First, we reconstruct the environment, covering 18 rooms across four floors, 800+ individually 3D-scanned objects, and 40+ hours of digitized home film, in Unreal Engine. Second, 18 former occupants annotate the objects and spaces of the reconstruction in head-mounted displays while handling tangible artifacts and narrating autobiographical memories; gaze, pose, touch, and transcribed speech are bound to specific object nodes, producing a semantic layer of affective meaning, provenance, ownership, habitual use, and temporal state. Third, motion-captured, 3D-scanned avatars of those same participants are driven back into the reconstruction, generating synthetic navigation and manipulation data grounded in real human interaction.</p>
+  <p>Preliminary results indicate that memory-annotated regions predict motion paths in a way we propose is unique to memory-conditioned semantic mapping. We argue that such maps offer a significant benefit to training the paths of humanoid robots operating in human homes.</p>
+figures:
+  - { src: projects/humanoids-at-home/system-overview.webp, caption: "System overview. Stage 1 reconstructs the residence from a longitudinal archival record; Stage 2 has former occupants annotate object nodes in mixed reality; Stage 3 retargets the same participants onto avatars and replays their motion inside the annotated reconstruction." }
+  - { src: projects/humanoids-at-home/reconstruction.webp, caption: "The reconstructed environment from three perspectives, including the egocentric viewpoint used during annotation." }
+bibtex: |
+  @inproceedings{pillis2026humanoids,
+    title     = {Humanoids at Home: Autobiographical Semantic Maps for Humanoid Motion from Memory in a Reconstructed Domestic Environment},
+    author    = {Pillis, Daniel and others},
+    booktitle = {Semantic-Aware Mapping and Navigation (SeMaNa) Workshop, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+    year      = {2026}
+  }
+---

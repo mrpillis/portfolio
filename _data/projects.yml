@@ -5,6 +5,7 @@
 # Links: any of website, paper, code, video, slides, article
 
 - title: "The Memory Machine: Immersive Reconstruction of Autobiographical Memory using Gaussian Splatting, World Models, and Interactive Agents"
+  page: /projects/memory-machine/
   media: memory-machine.webp
   featured: true
   authors: "<b>Daniel Pillis</b> et al."
@@ -21,6 +22,7 @@
     Jefferson Drive Dataset and the design principles of TeleAbsence.
 
 - title: "Multisensory Spatial Memory: A Large-Scale, Synchronized Multi-Sensory Dataset of Embodied Interaction with Reconstructed Autobiographical Spaces"
+  page: /projects/multisensory-spatial-memory/
   media: multisensory-spatial-memory.webp
   featured: true
   authors: "<b>Daniel Pillis</b> et al."
@@ -37,6 +39,7 @@
     it in mixed reality.
 
 - title: "Humanoids at Home: Autobiographical Semantic Maps for Humanoid Motion from Memory in a Reconstructed Domestic Environment"
+  page: /projects/humanoids-at-home/
   media: humanoids-at-home.webp
   featured: true
   authors: "<b>Daniel Pillis</b> et al."
@@ -52,6 +55,7 @@
     domestic robots.
 
 - title: "Robot Cinematography: A Boston Dynamics Spot Quadruped as a Generative Virtual Production Camera Platform"
+  page: /projects/robot-cinematography/
   featured: true
   authors: "<b>Daniel Pillis</b>"
   affiliation: "Emerson College"
@@ -65,6 +69,7 @@
     generative virtual production.
 
 - title: "Towards Performing Robotics: AI Theatre & Social Robots for Theatrical Virtual Production"
+  page: /projects/performing-robotics/
   featured: true
   authors: "<b>Daniel Pillis</b>, Treyden Chiaravalloti, Jon Ferguson"
   affiliation: "Emerson College, MIT Media Lab"
@@ -79,6 +84,7 @@
     social robots as theatrical performers.
 
 - title: "The Jibo Trio: A Cappella Performance by Networked Social Robots"
+  page: /projects/jibo-trio/
   media: jibo-trio.webp
   featured: true
   authors: "<b>Daniel Pillis</b>, Jon Ferguson"
@@ -95,6 +101,7 @@
     than one alone.
 
 - title: "Perceive More by Seeing Less: Immersive Vision Augmentation Systems to Support Vision Rehabilitation"
+  page: /projects/perceive-more-by-seeing-less/
   media: vision-augmentation.gif
   featured: true
   authors: "<b>Daniel Pillis</b>*, Cayden Pierce*, Seth Riskin, Yuriy Reznik, Ken Zolot, Pawan Sinha"
@@ -111,6 +118,7 @@
     heighten perception; over 200 people used it in a public exhibition.
 
 - title: "Towards Temporal Telepresence & Multisensory Spatial Intelligence: Reconstructing the Human Experience through TeleAbsence"
+  page: /projects/temporal-telepresence/
   media: teleabsence.gif
   featured: true
   authors: "<b>Daniel Pillis</b>"
@@ -126,6 +134,7 @@
     and a form of telepresence across time.
 
 - title: "TeleAbsence: Visions of Afterlife Telepresence"
+  page: /projects/teleabsence/
   media: teleabsence-presence.webp
   featured: true
   authors: "Hiroshi Ishii, <b>Daniel Pillis</b>*, Pat Pataranutaporn*, Xiao Xiao, Alaa Algargoosh, Lucy Li, Jean-Baptiste Labrune"
@@ -142,6 +151,7 @@
     telepresence and from generative impersonation of the departed.
 
 - title: "Return of the Jibo: Generative AI & Social Robots for Virtual Production Education"
+  page: /projects/return-of-the-jibo/
   media: return-of-the-jibo.gif
   featured: true
   authors: "<b>Daniel Pillis</b>, Jon Ferguson"
@@ -159,6 +169,7 @@
     in AI-assisted creative learning.
 
 - title: "Real-time Stable Diffusion for Virtual Production: Room-Scale Generative AI towards the Ultimate Display"
+  page: /projects/virtual-production/
   media: virtual-production.gif
   featured: true
   authors: "<b>Daniel Pillis</b>, P. Cerner, M. Sawtell"

@@ -1,0 +1,29 @@
+---
+layout: project
+title: "The Jibo Trio: A Cappella Performance by Networked Social Robots"
+permalink: /projects/jibo-trio/
+tagline: "Three networked Jibos, one score, and a bow tie."
+authors:
+  - { name: "Daniel Pillis", affil: "1" }
+  - { name: "Jon Ferguson", affil: "2" }
+affiliations: ["Emerson College", "MIT Media Lab"]
+venue: "International Conference on Social Robotics (ICSR) 2026, London, UK"
+links: {}
+teaser: projects/jibo-trio/montage.webp
+abstract: |
+  <p>We document the Jibo Trio, a live a cappella performance by three networked Jibo social robots staged at ICSR in London in July 2026. Social robots are almost always studied individually, yet many culturally resonant forms of human performance, the choir, the barbershop quartet, doo-wop, require complex social collaboration. Jibo's three-axis body articulates the swaying, leaning, and gaze-passing vocabulary of a vocal ensemble, and its ESML speech backend permits precisely synchronized voice and gesture across many robots.</p>
+  <p>We describe a multi-robot control architecture built on Rosbridge, the Model Context Protocol, and the ESML speech markup language that synchronizes speech, animation, and social behaviors across three robots from a single TouchDesigner interface. Every movement is preloaded to each robot and triggered against a shared wall-clock timestamp, yielding sub-frame mirroring across the backing robots despite network jitter, while the bow-tied lead follows its own lyric-timed track. Rehearsal produced a vocabulary of specifically choral behaviors: gaze-passing, synchrony, sway blend, and reaction shots.</p>
+  <p>Audiences described the trio in collective language, as if acting as a unit, and the lead drew a disproportionate share of attention. Future work includes a solo-versus-ensemble study, live LLM-driven lyric generation, and mixed human–robot ensembles.</p>
+figures:
+  - { src: projects/jibo-trio/architecture.png, caption: "Control architecture. TouchDesigner reads editable score tables and broadcasts cues to each robot's MCP endpoint; animations are preloaded and triggered against a shared timestamp, holding the backers in lockstep while the lead follows its own lyric-timed track." }
+  - { src: projects/jibo-trio/performance.webp, caption: "The trio performing beneath the live projection." }
+  - { src: projects/jibo-trio/venue.webp, caption: "The venue at ICSR, London." }
+bibtex: |
+  @inproceedings{pillis2026jibotrio,
+    title     = {The Jibo Trio: A Cappella Performance by Networked Social Robots},
+    author    = {Pillis, Daniel and Ferguson, Jon},
+    booktitle = {International Conference on Social Robotics (ICSR)},
+    address   = {London, UK},
+    year      = {2026}
+  }
+---

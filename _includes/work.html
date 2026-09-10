@@ -4,14 +4,15 @@
   <div class="media"><img src="{{ site.baseurl }}/assets/media/{{ p.media }}" alt="" loading="lazy" decoding="async" width="640" height="480"></div>
   {%- endif %}
   <div>
-    <h3>{% if p.links.website %}<a href="{{ p.links.website }}" style="color:inherit">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h3>
+    <h3>{% if p.page %}<a href="{{ site.baseurl }}{{ p.page }}" style="color:inherit">{{ p.title }}</a>{% elsif p.links.website %}<a href="{{ p.links.website }}" style="color:inherit">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h3>
     <div class="authors">{{ p.authors }}</div>
     <div class="venue">
       <span class="tag">{{ p.venue }} {{ p.year }}</span>{% if p.note %}{{ p.note }}, {% endif %}{{ p.affiliation }}
     </div>
-    {%- if p.links.size > 0 %}
+    {%- if p.page or p.links.size > 0 %}
     <div class="links">
-      {%- if p.links.website %}<a href="{{ p.links.website }}">Project page</a>{% endif %}
+      {%- if p.page %}<a href="{{ site.baseurl }}{{ p.page }}">Project page</a>{% endif %}
+      {%- if p.links.website %}<a href="{{ p.links.website }}">{% if p.page %}More{% else %}Project page{% endif %}</a>{% endif %}
       {%- if p.links.paper %}<a href="{{ p.links.paper }}">Paper</a>{% endif %}
       {%- if p.links.code %}<a href="{{ p.links.code }}">Code</a>{% endif %}
       {%- if p.links.video %}<a href="{{ p.links.video }}">Video</a>{% endif %}

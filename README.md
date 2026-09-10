@@ -7,7 +7,8 @@ and three YAML data files.
 
 | What | Where |
 |---|---|
-| Projects (Selected work / Earlier projects) | `_data/projects.yml` — set `featured: true` to show it with a looping video at the top |
+| Projects (Selected work / Earlier projects) | `_data/projects.yml` — `featured: true` puts it in Selected work; `page:` links to a project page |
+| Project pages (Nerfies-style) | `projects/<slug>.html` — all content is front matter; figures go in `assets/projects/<slug>/` |
 | News | `_data/news.yml` — newest first; the page shows six and folds the rest |
 | Teaching | `_data/teaching.yml` |
 | Intro text, bio | `index.html` |
