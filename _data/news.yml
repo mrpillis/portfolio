@@ -1,8 +1,8 @@
 # Newest first. `date` is display text.
+- date: "August 2026"
+  text: "Presented the poster <em>Perceive More by Seeing Less: Vision Augmentation Systems</em> at the ACM Symposium on Applied Perception in Rennes."
 - date: "July 2026"
   text: "Staged <em>The Jibo Trio</em>, an a cappella performance by three networked Jibo robots, at ICSR in London."
-- date: "2026"
-  text: "Presented the poster <em>Perceive More by Seeing Less: Vision Augmentation Systems</em> at the ACM Symposium on Applied Perception in Rennes."
 - date: "February 2026"
   text: "Opened <em>WaveForms</em> at Emerson's Paramount Center: Boston Dynamics Spot, Jibo, and real-time Stable Diffusion virtual production alongside student-curated installations."
 - date: "July 2025"
