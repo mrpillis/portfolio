@@ -13,7 +13,7 @@ wix_links:
   - { label: "Visual portfolio", url: "https://www.dpillis.com/" }
 
 links:
-  email: https://mailhide.io/e/lCqh3Bhy
+  email: mailto:pillis@mit.edu  
   github: https://github.com/mrpillis/
   linkedin: https://www.linkedin.com/in/pillis/
   website: https://www.dpillis.com
