@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Humanoids at Home</title>
+<meta name="description" content="Autobiographical semantic maps for humanoid motion from memory in a reconstructed domestic environment. Built on the Jefferson Drive Dataset.">
+<meta property="og:title" content="Humanoids at Home">
+<meta property="og:description" content="A home robot needs to know not only what is where, but what it means, and to whom.">
+<meta property="og:image" content="assets/dollhouse.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="masthead">
+  <video class="masthead-media" autoplay loop muted playsinline poster="assets/dollhouse-simulation-poster.jpg" aria-label="Cutaway view of the reconstructed first floor with an avatar walking through it">
+    <source src="assets/dollhouse-simulation.mp4" type="video/mp4">
+  </video>
+  <div class="masthead-text">
+    <p class="kicker">Jefferson Drive Dataset · Work in progress</p>
+    <h1>Humanoids at&nbsp;Home</h1>
+    <p class="dek">Autobiographical semantic maps for humanoid motion from memory in a reconstructed domestic environment</p>
+
+    <!-- TODO: replace with your author list and affiliation -->
+    <p class="authors"><span>Your Name</span><span>Collaborator Name</span><span>Collaborator Name</span></p>
+    <p class="affil">MIT Media Lab</p>
+
+    <!-- TODO: fill in real URLs; remove any button you don't need -->
+    <nav class="links" aria-label="Project links">
+      <a href="#">Paper</a>
+      <a href="#">Code</a>
+      <a href="#">Dataset</a>
+      <a href="#">Slides</a>
+      <a href="#replay">Replay viewer</a>
+    </nav>
+    <a class="readon" href="#article">Read on ↓</a>
+  </div>
+</header>
+
+<main id="article">
+
+  <section class="prose">
+    <p class="lede">Robot maps have become very good at telling you <em>where the chair is</em>. They cannot tell you <em>whose chair it was</em>. We rebuild one family home in high fidelity, ask the people who lived there to walk through it and narrate what they remember, and then put motion-captured avatars of those same people back inside, so that a humanoid can learn to move through a home the way its residents remember it.</p>
+  </section>
+
+  <figure class="wide">
+    <video autoplay loop muted playsinline poster="assets/replay-walkthrough-poster.jpg" aria-label="An avatar walks through the reconstructed living room">
+      <source src="assets/replay-walkthrough.mp4" type="video/mp4">
+    </video>
+    <figcaption>A resident's avatar replays a remembered path through the reconstructed first floor.</figcaption>
+  </figure>
+
+  <section class="prose" id="problem">
+    <p class="label">The gap</p>
+    <h2>Where is the chair? Whose chair was it?</h2>
+    <p>Metric-semantic SLAM, scene graphs and open-vocabulary maps answer geometric questions well. They encode what an object is, and rarely what it means. None of them can say "this is Grandma's chair, it's fragile, we don't use it anymore."</p>
+    <p>In a real home, where things sit and how people move comes from decades of habit and episodic memory. A robot that only sees the present room cannot predict where a resident will reach, or which of two identical vases needs care.</p>
+  </section>
+
+  <figure class="wide">
+    <img src="assets/views.jpg" alt="Three views of the reconstructed home: two cutaway views from above and a resident's eye-level view" loading="lazy">
+    <figcaption>The reconstructed home from above, and from a resident's egocentric view.</figcaption>
+  </figure>
+
+  <section class="prose" id="pipeline">
+    <p class="label">Approach</p>
+    <h2>Reconstruct, annotate, replay</h2>
+    <ol class="stages">
+      <li><a href="#reconstruct"><span class="n">01</span><span><b>Reconstruct</b> the home from scans, objects and 50 years of archival film and photos.</span></a></li>
+      <li><a href="#annotate"><span class="n">02</span><span><b>Annotate</b> it with memory: former residents explore it in mixed reality and narrate.</span></a></li>
+      <li><a href="#replay"><span class="n">03</span><span><b>Replay</b> the people who lived there as avatars, generating navigation data.</span></a></li>
+    </ol>
+  </section>
+
+  <!-- ───────── Stage 1 ───────── -->
+  <section class="prose" id="reconstruct">
+    <p class="label">Stage 01</p>
+    <h2>The house</h2>
+    <p>One single-family home in Pittsburgh, PA, lived in by the same family and documented from 1965 to 2025.</p>
+  </section>
+
+  <dl class="stats">
+    <div><dt>18</dt><dd>rooms across four floors</dd></div>
+    <div><dt>800+</dt><dd>individually scanned objects</dd></div>
+    <div><dt>40+ hrs</dt><dd>8mm and 16mm home film</dd></div>
+    <div><dt>5,886</dt><dd>archival photos at 600 dpi</dd></div>
+  </dl>
+
+  <figure class="wide">
+    <video autoplay loop muted playsinline poster="assets/dataset-overview-poster.jpg" aria-label="Animated overview of the dataset: room panoramas, home film frames, archival photos and scanned objects">
+      <source src="assets/dataset-overview.mp4" type="video/mp4">
+    </video>
+    <figcaption>The dataset: room panoramas, home film, archival photographs and scanned objects.</figcaption>
+  </figure>
+
+  <section class="prose">
+    <ul class="plain">
+      <li><b>Rooms.</b> Photogrammetry plus 3D Gaussian splatting, with panoramas for tricky surfaces.</li>
+      <li><b>Objects.</b> Structured-light scans. Each object is an addressable node in its original spot, so memories can attach at the object level.</li>
+      <li><b>Film.</b> Registered to rooms and time periods, and used to cue memories.</li>
+    </ul>
+  </section>
+
+  <!-- ───────── Stage 2 ───────── -->
+  <section class="prose" id="annotate">
+    <p class="label">Stage 02</p>
+    <h2>Residents annotate with memory</h2>
+    <p>Eighteen former occupants, ages 50 to 95, each with 30 to 50 years in the home, walk through the reconstruction in sessions of 12 to 28 minutes.</p>
+  </section>
+
+  <figure class="wide split">
+    <img src="assets/annotation-session.jpg" alt="Illustration of a participant wearing a headset, seated on a sofa with an open memory box on the table" loading="lazy">
+    <div class="split-text">
+      <p class="label">Captured in each session</p>
+      <ul class="plain">
+        <li>Egocentric video, 6-DOF head pose and eye tracking from a head-mounted display</li>
+        <li>Continuous narration, transcribed and aligned to the reconstruction</li>
+        <li>Tangible "memory boxes" holding original wallpaper, carpet, scents and heirlooms, instrumented for touch and grip</li>
+      </ul>
+      <p class="note">Every spoken memory is linked to the object or region the person was attending to.</p>
+    </div>
+    <figcaption>AI-drawn illustration of an annotation session (from the paper).</figcaption>
+  </figure>
+
+  <section class="prose">
+    <h3>From narration to node attributes</h3>
+    <p>Each object or region can carry information no sensor in the room could capture. Pick an attribute:</p>
+  </section>
+
+  <div class="wide attrs" id="attrs">
+    <div class="attr-tabs" role="tablist" aria-label="Node attributes">
+      <button role="tab" aria-selected="true" data-k="affective">Affective</button>
+      <button role="tab" aria-selected="false" data-k="provenance">Provenance</button>
+      <button role="tab" aria-selected="false" data-k="value">Value</button>
+      <button role="tab" aria-selected="false" data-k="habit">Habitual use</button>
+      <button role="tab" aria-selected="false" data-k="temporal">Temporal state</button>
+    </div>
+    <div class="attr-body">
+      <img src="assets/objects.jpg" alt="Grid of scanned household objects: figurines, vases, a dollhouse, a model ship" loading="lazy">
+      <div class="attr-panel" role="tabpanel" aria-live="polite">
+        <p class="attr-def" id="attr-def"></p>
+        <!-- Illustrative node, not real data. Swap in a real record when you have one cleared to publish. -->
+        <pre class="node" id="attr-node"></pre>
+        <p class="note">Illustrative node, not a record from the dataset.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ───────── Stage 3 ───────── -->
+  <section class="prose" id="replay">
+    <p class="label">Stage 03</p>
+    <h2>Agent replay in simulation</h2>
+    <p>Eighteen sessions, each under half an hour, is sparse. To turn them into scalable, human-grounded navigation data, each participant is 3D scanned and rigged to a parametric body model (SMPL). Their recorded head pose, gaze and contact events are retargeted onto their own avatar, which re-executes their remembered paths inside the reconstruction.</p>
+  </section>
+
+  <div class="wide viewer">
+    <div class="viewer-tabs" role="tablist" aria-label="Replay views">
+      <button role="tab" aria-selected="true" data-v="walk">Eye level</button>
+      <button role="tab" aria-selected="false" data-v="doll">Cutaway</button>
+      <button role="tab" aria-selected="false" data-v="floor">First floor</button>
+      <button role="tab" aria-selected="false" data-v="nav">Navigation mesh</button>
+    </div>
+    <div class="viewer-stage">
+      <video data-v="walk" autoplay loop muted playsinline poster="assets/replay-walkthrough-poster.jpg"><source src="assets/replay-walkthrough.mp4" type="video/mp4"></video>
+      <video data-v="doll" hidden loop muted playsinline preload="none" poster="assets/dollhouse-simulation-poster.jpg"><source src="assets/dollhouse-simulation.mp4" type="video/mp4"></video>
+      <img data-v="floor" hidden src="assets/agent-first-floor.jpg" alt="Wide view of an agent walking through the reconstructed first floor" loading="lazy">
+      <img data-v="nav" hidden src="assets/captions.jpg" alt="Four editor views of the agent with navigation overlays in the reconstructed rooms" loading="lazy">
+    </div>
+    <p class="viewer-cap" id="viewer-cap"></p>
+  </div>
+
+  <section class="prose">
+    <p>Unlike random or generated trajectories, this motion keeps the subtleties of real lived experience, because it came from a person moving through a place they remember.</p>
+  </section>
+
+  <!-- ───────── Findings ───────── -->
+  <section class="prose" id="findings">
+    <p class="label">Preliminary findings</p>
+    <h2>Three early observations</h2>
+    <p class="note">Analysis is ongoing.</p>
+  </section>
+
+  <ol class="wide findings">
+    <li><span class="n">01</span><h3>Memory draws attention</h3><p>Gaze and movement concentrate where people recall memories: the dining table for holidays, the stairs for basement stories.</p></li>
+    <li><span class="n">02</span><h3>Movement precedes visibility</h3><p>People orient toward remembered object locations before seeing them, even objects that exist only virtually.</p></li>
+    <li><span class="n">03</span><h3>Touch and smell matter</h3><p>Participants who handled scent and textile artifacts focused longer in the virtual room.</p></li>
+  </ol>
+
+  <!-- ───────── Implications ───────── -->
+  <section class="prose" id="robots">
+    <p class="label">Why it matters</p>
+    <h2>What this means for home robots</h2>
+  </section>
+
+  <figure class="wide split flip">
+    <img src="assets/floor-scan.jpg" alt="Grayscale scan of the first floor seen from above" loading="lazy">
+    <div class="split-text">
+      <h3>Meaning-based manipulation</h3>
+      <p>Identical geometry and class can still call for different grasps. Today's maps have no channel for that.</p>
+      <h3>Where residents believe things are</h3>
+      <p>Habitual-use labels model expected locations, which is key for assistive robots in older adults' homes.</p>
+      <h3>History-referential language</h3>
+      <p>Requests like "bring me Dad's old mug" are grounded using provenance and period, not appearance.</p>
+    </div>
+  </figure>
+
+  <section class="prose closing">
+    <blockquote>
+      <p>A home robot needs to know not only what is where, but what it means, and to whom.</p>
+    </blockquote>
+    <p>Some of those semantics can't be observed from the home itself. They must come from the people who lived there.</p>
+  </section>
+
+  <section class="prose" id="cite">
+    <p class="label">Cite</p>
+    <!-- TODO: replace with the real citation -->
+<pre class="bib">@misc{humanoidsathome,
+  title  = {Humanoids at Home: Autobiographical Semantic Maps for
+            Humanoid Motion from Memory in a Reconstructed
+            Domestic Environment},
+  author = {Your Name and Collaborator Name},
+  year   = {2026},
+  note   = {Work in progress}
+}</pre>
+  </section>
+</main>
+
+<footer>
+  <p>Humanoids at Home · Jefferson Drive Dataset</p>
+  <!-- TODO: point this at your portfolio home -->
+  <p><a href="../">← Back to portfolio</a></p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
